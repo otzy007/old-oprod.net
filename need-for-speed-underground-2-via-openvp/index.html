@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Need for Speed Underground 2 via openvp</title>
+    <meta name="author" content="Andrei G">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le styles -->
+    <link href="/assets/twitter/stylesheets/bootstrap.min.css?0.14595546078331323" type="text/css" rel="stylesheet" media="all">
+<link href="/assets/twitter/stylesheets/style.css?0.038053957196215626" type="text/css" rel="stylesheet" media="all">
+<link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.8196288924174635" type="text/css" rel="stylesheet" media="all">
+
+ 
+
+    <!-- Le fav and touch icons -->
+  <!-- Update these with your own images
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  -->
+  </head>
+
+  <body>
+
+    <div class="navbar">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand" href="/">oprod.net</a>
+          <ul class="nav">
+              
+                <li><a href="/archive">Archive</a></li>
+              
+                <li><a href="/about">About Me</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="content">
+        <div class="page-header">
+  <h1>Need for Speed Underground 2 via openvp </h1>
+</div>
+
+<div class="row">
+  <div class="span8">
+    <p>I just hate hamachi because when I want to play a game with my friends on the internet it just doesn't work, especially with Need for Speed Underground 2]]. So I was thinking one day that I can make my own vpn]] network. I choosed <a href="http://openvpn.net/">openvpn</a> because it's free and easy to configure.<a href="http://openvpn.net/index.php/documentation/howto.html#quick"> Here</a> you will find a tutorial how to install and configure it. First you'll have to Generate the master Certificate Authority]] (CA) with wich you will sign clients and server certificates. I've done this in my <a href="http://slackware.com" target="_blank">Slackware 12.1</a> Linux]] distribution with:</p>
+
+<pre><strong><blockquote>./vars<br />./clean-all<br />./build-ca</blockquote></strong></pre>
+
+<p>from my /usr/doc/openvpn-2.0.9/easy-rsa/2.0/ The directory might not be the same in your Linux]] distro. Also you can make this in Windows]] with the commands:</p>
+
+<pre><strong><blockquote>vars<br />clean-all<br />build-ca</blockquote></strong></pre>
+
+<p> </p>
+
+<p>After that I've generated server's certificate with:</p>
+
+<pre><strong><blockquote>./build-key-server server</blockquote></strong></pre>
+
+<p> </p>
+
+<p>or in Windows with:</p>
+
+<p> </p>
+
+<pre><strong><blockquote>build-key-server server</blockquote></strong></pre>
+
+<p> </p>
+
+<p>and also the certificates for the clients:</p>
+
+<p> </p>
+
+<pre><strong><blockquote>./build-key client1</blockquote></strong></pre>
+
+<p> </p>
+
+<p>in Windows:</p>
+
+<pre><strong><blockquote>build-key client1</blockquote></strong></pre>
+
+<p> </p>
+
+<p>after that you will have to Generate Diffie Hellman]] parameters with:</p>
+
+<pre><strong><blockquote>./build-dh</blockquote></strong></pre>
+
+<p> </p>
+
+<p>in Windows:</p>
+
+<pre><strong><blockquote>build-dh</blockquote></strong></pre>
+
+<p> </p>
+
+<p>Here's a explanation of the generated files:</p>
+
+<p> </p>
+
+<table border="1" cellspacing="0" cellpadding="8">
+<tbody>
+<tr>
+<td><strong>Filename</strong></td>
+<td><strong>Needed By</strong></td>
+<td><strong>Purpose</strong></td>
+<td><strong>Secret</strong></td>
+</tr>
+<tr>
+<td>ca.crt</td>
+<td>server + all clients</td>
+<td>Root CA certificate</td>
+<td>NO</td>
+</tr>
+<tr>
+<td>ca.key</td>
+<td>key signing machine only</td>
+<td>Root CA key</td>
+<td>YES</td>
+</tr>
+<tr>
+<td>dh{n}.pem</td>
+<td>server only</td>
+<td>Diffie Hellman parameters</td>
+<td>NO</td>
+</tr>
+<tr>
+<td>server.crt</td>
+<td>server only</td>
+<td>Server Certificate</td>
+<td>NO</td>
+</tr>
+<tr>
+<td>server.key</td>
+<td>server only</td>
+<td>Server Key</td>
+<td>YES</td>
+</tr>
+<tr>
+<td>client1.crt</td>
+<td>client1 only</td>
+<td>Client1 Certificate</td>
+<td>NO</td>
+</tr>
+<tr>
+<td>client1.key</td>
+<td>client1 only</td>
+<td>Client1 Key</td>
+<td>YES</td>
+</tr>
+<tr>
+<td>client2.crt</td>
+<td>client2 only</td>
+<td>Client2 Certificate</td>
+<td>NO</td>
+</tr>
+<tr>
+<td>client2.key</td>
+<td>client2 only</td>
+<td>Client2 Key</td>
+<td>YES</td>
+</tr>
+<tr>
+<td>client3.crt</td>
+<td>client3 only</td>
+<td>Client3 Certificate</td>
+<td>NO</td>
+</tr>
+<tr>
+<td>client3.key</td>
+<td>client3 only</td>
+<td>Client3 Key</td>
+<td>YES</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p>
+
+<p>Now you will need to edit your configuration files. You can find a examples at: <a href="http://openvpn.net/index.php/documentation/howto.html#examples" target="_blank">http://openvpn.net/index.php/documentation/howto.html#examples</a> Just copy them into the server and the client and edit them with the right server address and certificates path. In windows you need to save them to .ovpn extension.</p>
+
+<p> </p>
+
+<p>To play Need for Speed Underground 2]] you will also need nfsu2rely which you can found at: <a href="http://www.csc.liv.ac.uk/~greg/nfsu2relay.html" target="_blank"> http://www.csc.liv.ac.uk/~greg/nfsu2relay.html</a> <br />You will need nfs2relay only for the host PC. You will also need to know the IP]]s from the PCs in the network. nfsu2relay will be launched with command:</p>
+
+<p> </p>
+
+<pre><strong><blockquote>nfsu2relay ip1 ip2 ip3 ... ip n</blockquote></strong></pre>
+
+<p> </p>
+
+<p>example:</p>
+
+<pre><strong><blockquote>nfsu2relay 10.8.0.1 10.8.0.6</blockquote></strong></pre>
+
+<p> </p>
+
+<p>Then start Need for Speed Underground 2]] and enjoy <img src="http://www.pic4ever.com/images/wassat.gif" border="0" alt="B-)" /></p>
+
+<p>PS: You can use the Virtual Private Network (VPN]]) not only to play Need for Speed Underground 2]], but also other games that could be played in a Local Area Network (LAN]]) like  Need for Speed Most Wanted]], Red Alert 2]] or Call of Duty Modern Warfare]].</p>
+
+    <hr>
+    <div class="pagination">
+      <ul>
+        <ul>
+            <li class="prev"><a href="/drop-io" title="drop.io">&larr; Previous</a></li>
+
+            <li><a href="/archive">Archive</a></li>
+
+            <li class="next"><a href="/scripts" title="Scripts">Next &rarr;</a></li>
+        </ul>
+      </ul>
+    </div>
+    <hr>
+    <div id="disqus_thread"></div>
+<script>
+    var disqus_developer = 1;
+    var disqus_shortname = 'oprod'; // required: replace example with your forum shortname
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
+  </div>
+  
+  <div class="span4">
+    <h4>Published</h4>
+    <br><div class="date"><span>2008-08-12 00:00:00 +0300</span></div>
+    <br>
+    <h4>Categories</h4>
+    <ul class="tag_box">
+    </ul>
+    <br>
+    <h4>Tags</h4>
+    <ul class="tag_box">
+    </ul>
+  </div>
+</div>
+
+      </div>
+
+      <footer>
+        <p>&copy; Andrei G 2013 
+          with help from <a href="http://ruhoh.com" target="_blank" title="The Definitive Technical Blogging Framework">ruhoh</a>
+          and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
+        </p>
+      </footer>
+
+    </div> <!-- /container -->
+
+    <!-- Google Prettify -->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/prettify/188.0.0/prettify.js"></script>
+<script>
+  var pres = document.getElementsByTagName("pre");
+  for (var i=0; i < pres.length; ++i) {
+    pres[i].className = "prettyprint linenums";
+  }
+  prettyPrint();
+</script>
+<!-- end Google Prettify -->
+    <script>
+  var _gaq=[['_setAccount','UA-123-12'],['_trackPageview']];
+  (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+  g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+  s.parentNode.insertBefore(g,s)}(document,'script'));
+</script>
+  </body>
+</html>

@@ -11,9 +11,9 @@
     <![endif]-->
 
     <!-- Le styles -->
-    <link href="/assets/twitter/stylesheets/bootstrap.min.css?0.5866277584965076" type="text/css" rel="stylesheet" media="all">
-<link href="/assets/twitter/stylesheets/style.css?0.40572920818904357" type="text/css" rel="stylesheet" media="all">
-<link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.16083082317897457" type="text/css" rel="stylesheet" media="all">
+    <link href="/assets/twitter/stylesheets/bootstrap.min.css?0.8447126457699579" type="text/css" rel="stylesheet" media="all">
+<link href="/assets/twitter/stylesheets/style.css?0.5719072240471957" type="text/css" rel="stylesheet" media="all">
+<link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.03971813798988455" type="text/css" rel="stylesheet" media="all">
 
  
 
@@ -36,6 +36,8 @@
               
                 <li><a href="/archive">Archive</a></li>
               
+                <li><a href="/tags">Tags</a></li>
+              
                 <li><a href="/about">About Me</a></li>
           </ul>
         </div>
@@ -53,25 +55,44 @@
   <div class="span8">
     <p>Here's a little script I've made for <a href="http://www.greasespot.net/">Greasemonkey</a> to link the hashtags to twitter's search.</p>
 
-<p> </p>
-
-<p>You can download it from here: <a href="http://oprod.net/index.php/downloads/category/7-greasemonkey?download=14%3Atwitter-hastag-auto-link" target="_blank">http://oprod.net/index.php/downloads/category/7-greasemonkey?download=14%3Atwitter-hastag-auto-link</a></p>
-
-<p> </p>
+<p>You can download it from here: <a href="http://oprod.net/index.php/downloads/category/7-greasemonkey">http://oprod.net/index.php/downloads/category/7-greasemonkey</a></p>
 
 <p>And here's the sourcecode:
-<script src="http://snipt.net/embed/6ed4a383aabf69d5672f3cab2d253fa3" type="text/javascript"></script>
+<pre><code>
+// ==UserScript==
+// @name           Twitter Hashtag Auto-Link
+// @namespace      http://oprod.net
+// @description    Auto-Links Twitter Hashtags to twitter search
+// @include        http://twitter.com/*
+// @include        https://twitter.com/*
+// ==/UserScript==
+
+var entries, entry;
+
+entries = document.evaluate(
+    "//*[@class='entry-content']",
+    document,
+    null,
+    XPathResult.UNORDERED_NODE_SNAPSHOT_TYPE,
+    null);
+
+for(var i = 0; i < entries.snapshotLength; i++) {
+    entry = entries.snapshotItem(i);
+    entry.innerHTML = entry.innerHTML.replace(/#([^ ]+)/g, '<a href="http://twitter.com/#search?q=%23$1" 
+title="$1"  target="_blank">#$1</a>');
+}
+</code></pre>
 </p>
 
     <hr>
     <div class="pagination">
       <ul>
         <ul>
-            <li class="prev"><a href="/twitter-hashtag-auto-link" title="Twitter Hashtag Auto-Link">&larr; Previous</a></li>
+            <li class="prev"><a href="/oprod-net-g-ho-st" title="oprod.net/g.ho.st/">&larr; Previous</a></li>
 
             <li><a href="/archive">Archive</a></li>
 
-            <li class="next"><a href="/ping-fm" title="ping.fm">Next &rarr;</a></li>
+            <li class="next"><a href="/google-friend-connect" title="Google Friend Connect">Next &rarr;</a></li>
         </ul>
       </ul>
     </div>
@@ -94,7 +115,7 @@
   
   <div class="span4">
     <h4>Published</h4>
-    <br><div class="date"><span>2009-06-08 06:24:49 +0300</span></div>
+    <br><div class="date"><span>2009-06-08 00:00:00 +0300</span></div>
     <br>
     <h4>Categories</h4>
     <ul class="tag_box">
@@ -102,7 +123,11 @@
     <br>
     <h4>Tags</h4>
     <ul class="tag_box">
-    </ul>
+      <li>
+        <a href="/tags#Twitter-ref">Twitter <span>5</span></a>
+      </li>      <li>
+        <a href="/tags#Hashtag-ref">Hashtag <span>1</span></a>
+      </li>    </ul>
   </div>
 </div>
 

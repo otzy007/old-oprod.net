@@ -11,9 +11,9 @@
     <![endif]-->
 
     <!-- Le styles -->
-    <link href="/assets/twitter/stylesheets/bootstrap.min.css?0.9039296013943147" type="text/css" rel="stylesheet" media="all">
-<link href="/assets/twitter/stylesheets/style.css?0.5262790468698658" type="text/css" rel="stylesheet" media="all">
-<link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.7032588545168249" type="text/css" rel="stylesheet" media="all">
+    <link href="/assets/twitter/stylesheets/bootstrap.min.css?0.32174441555179" type="text/css" rel="stylesheet" media="all">
+<link href="/assets/twitter/stylesheets/style.css?0.5387950651863809" type="text/css" rel="stylesheet" media="all">
+<link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.9604899452252036" type="text/css" rel="stylesheet" media="all">
 
  
 
@@ -36,6 +36,8 @@
               
                 <li><a href="/archive">Archive</a></li>
               
+                <li><a href="/tags">Tags</a></li>
+              
                 <li><a href="/about">About Me</a></li>
           </ul>
         </div>
@@ -57,7 +59,14 @@
 
 <p>Here's the script:</p>
 
-<script src="http://snipt.net/embed/11c75be38b1f7d2e66e49924141f430e" type="text/javascript"></script>
+<pre><code>#!/bin/bash
+
+#convert movies into divx format for lg ku990 viewty
+
+mencoder "$1" -ovc lavc -oac lavc -lavcopts acodec=libmp3lame:abitrate=128 \
+-vf scale=400:240 -ffourcc DX50 -fps 23 -o "$2"
+
+</code></pre>
 
 <p> </p>
 
@@ -65,11 +74,11 @@
     <div class="pagination">
       <ul>
         <ul>
-            <li class="prev"><a href="/video-convert-script" title="Video convert script">&larr; Previous</a></li>
+            <li class="prev"><a href="/twitter-widget-on-the-blog" title="Twitter widget on the blog">&larr; Previous</a></li>
 
             <li><a href="/archive">Archive</a></li>
 
-            <li class="next"><a href="/twitter-widget-on-the-blog" title="Twitter widget on the blog">Next &rarr;</a></li>
+            <li class="next"><a href="/phising-mail" title="Phising mail :)">Next &rarr;</a></li>
         </ul>
       </ul>
     </div>
@@ -100,7 +109,15 @@
     <br>
     <h4>Tags</h4>
     <ul class="tag_box">
-    </ul>
+      <li>
+        <a href="/tags#snipt-ref">snipt <span>1</span></a>
+      </li>      <li>
+        <a href="/tags#viewtyconv-ref">viewtyconv <span>3</span></a>
+      </li>      <li>
+        <a href="/tags#Viewty-ref">Viewty <span>1</span></a>
+      </li>      <li>
+        <a href="/tags#mencoder-ref">mencoder <span>2</span></a>
+      </li>    </ul>
   </div>
 </div>
 

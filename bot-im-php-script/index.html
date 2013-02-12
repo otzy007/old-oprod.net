@@ -11,9 +11,9 @@
     <![endif]-->
 
     <!-- Le styles -->
-    <link href="/assets/twitter/stylesheets/bootstrap.min.css?0.9337775415788933" type="text/css" rel="stylesheet" media="all">
-<link href="/assets/twitter/stylesheets/style.css?0.3094864249506517" type="text/css" rel="stylesheet" media="all">
-<link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.7617700486500949" type="text/css" rel="stylesheet" media="all">
+    <link href="/assets/twitter/stylesheets/bootstrap.min.css?0.8160923966503127" type="text/css" rel="stylesheet" media="all">
+<link href="/assets/twitter/stylesheets/style.css?0.7651915003987774" type="text/css" rel="stylesheet" media="all">
+<link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.05258995550605594" type="text/css" rel="stylesheet" media="all">
 
  
 
@@ -36,6 +36,8 @@
               
                 <li><a href="/archive">Archive</a></li>
               
+                <li><a href="/tags">Tags</a></li>
+              
                 <li><a href="/about">About Me</a></li>
           </ul>
         </div>
@@ -55,7 +57,51 @@
 
 <p>And here's the script:</p>
 
-<script src="http://snipt.net/embed/1be1c2f98c803d1a0274138f875bf6bb" type="text/javascript"></script>
+<pre><code>
+&lt;?php
+
+//simple php script for bot.im
+//created by otzy_007(Andrei G.) http://oprod.net
+
+
+//the message from the user
+$msg = strtolower($_REQUEST["msg"]);
+
+$part = explode("(", $msg);
+
+//if there's an exec command execute it
+//example: exec(whoami), exec(ps), exec(uptime)
+if($part[0]=='exec'){
+$part[1]=rtrim($part[1], ")"); 
+echo exec($part[1]);
+}
+//else execute the other commands
+else
+{
+switch($msg)
+{
+  case "date":
+        echo date("D M j G:i:s T Y");
+  break;
+  case "hello":
+        echo "Hi!";
+  break;
+  case "user":
+        echo $_REQUEST['user'];
+  break;
+  case "help":
+        help();
+  break;
+  default:
+        echo "For a list of avaible commands enter help";
+  break;
+}
+}
+function help(){
+echo "Avaible commands: help, date, hello, exec(\"command\") without quotes";
+}
+
+?></code></pre>
 
 <p></br>
 Download: <a href="http://oprod.net/index.php/downloads/category/8-php?download=17%3Abot.im-script"><a href="http://oprod.net/index.php/downloads/category/8-php?download=17%3Abot.im-script">http://oprod.net/index.php/downloads/category/8-php?download=17%3Abot.im-script</a></a></p>
@@ -99,7 +145,11 @@ Download: <a href="http://oprod.net/index.php/downloads/category/8-php?download=
     <br>
     <h4>Tags</h4>
     <ul class="tag_box">
-    </ul>
+      <li>
+        <a href="/tags#bot.im-ref">bot.im <span>3</span></a>
+      </li>      <li>
+        <a href="/tags#shell-ref">shell <span>1</span></a>
+      </li>    </ul>
   </div>
 </div>
 

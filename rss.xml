@@ -3,7 +3,7 @@
   <channel>
     <title>oprod.net</title>
     <link>http://sample.com</link>
-    <pubDate>2013-02-11 21:14:40 +0200</pubDate>
+    <pubDate>2013-02-12 13:58:46 +0200</pubDate>
     <item>
       <title>Slackware64 packages repository</title>
       <link>http://sample.com/slackware64-packages-repository</link>
@@ -21,9 +21,9 @@
     &lt;![endif]--&gt;
 
     &lt;!-- Le styles --&gt;
-    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.6989428892677318" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/stylesheets/style.css?0.6713360234600279" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.6746609140406364" type="text/css" rel="stylesheet" media="all"&gt;
+    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.9637449742262901" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/stylesheets/style.css?0.4518764185618893" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.8808409670839553" type="text/css" rel="stylesheet" media="all"&gt;
 
  
 
@@ -45,6 +45,8 @@
           &lt;ul class="nav"&gt;
               
                 &lt;li&gt;&lt;a href="/archive"&gt;Archive&lt;/a&gt;&lt;/li&gt;
+              
+                &lt;li&gt;&lt;a href="/tags"&gt;Tags&lt;/a&gt;&lt;/li&gt;
               
                 &lt;li&gt;&lt;a href="/about"&gt;About Me&lt;/a&gt;&lt;/li&gt;
           &lt;/ul&gt;
@@ -104,7 +106,15 @@
     &lt;br&gt;
     &lt;h4&gt;Tags&lt;/h4&gt;
     &lt;ul class="tag_box"&gt;
-    &lt;/ul&gt;
+      &lt;li&gt;
+        &lt;a href="/tags#Slackware64-ref"&gt;Slackware64 &lt;span&gt;1&lt;/span&gt;&lt;/a&gt;
+      &lt;/li&gt;      &lt;li&gt;
+        &lt;a href="/tags#packages-ref"&gt;packages &lt;span&gt;1&lt;/span&gt;&lt;/a&gt;
+      &lt;/li&gt;      &lt;li&gt;
+        &lt;a href="/tags#repository-ref"&gt;repository &lt;span&gt;1&lt;/span&gt;&lt;/a&gt;
+      &lt;/li&gt;      &lt;li&gt;
+        &lt;a href="/tags#Slackware-ref"&gt;Slackware &lt;span&gt;6&lt;/span&gt;&lt;/a&gt;
+      &lt;/li&gt;    &lt;/ul&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
@@ -156,9 +166,9 @@
     &lt;![endif]--&gt;
 
     &lt;!-- Le styles --&gt;
-    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.9656752074011746" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/stylesheets/style.css?0.6562466741958147" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.358249590964696" type="text/css" rel="stylesheet" media="all"&gt;
+    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.10846170889502982" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/stylesheets/style.css?0.5970327354079412" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.354587535620947" type="text/css" rel="stylesheet" media="all"&gt;
 
  
 
@@ -181,6 +191,8 @@
               
                 &lt;li&gt;&lt;a href="/archive"&gt;Archive&lt;/a&gt;&lt;/li&gt;
               
+                &lt;li&gt;&lt;a href="/tags"&gt;Tags&lt;/a&gt;&lt;/li&gt;
+              
                 &lt;li&gt;&lt;a href="/about"&gt;About Me&lt;/a&gt;&lt;/li&gt;
           &lt;/ul&gt;
         &lt;/div&gt;
@@ -198,7 +210,7 @@
   &lt;div class="span8"&gt;
     &lt;p&gt;While I was playing with Ruby on Rails and the Twitter Gem I've developed a small app to tweet any new changes in the Slackware's ChangeLog file.&lt;/p&gt;
 
-&lt;p&gt;Here's the link to the app: &lt;a href="http://slackware-changelog.heroku.com/" target="_blank"&gt;http://slackware-changelog.heroku.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Here's the link to the app: &lt;a href="http://slackware-changelog.oprod.net" target="_blank"&gt;http://slackware-changelog.oprod.net&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;There you will find the accounts for different Slackware versions.&lt;/p&gt;
 
@@ -241,7 +253,15 @@
     &lt;br&gt;
     &lt;h4&gt;Tags&lt;/h4&gt;
     &lt;ul class="tag_box"&gt;
-    &lt;/ul&gt;
+      &lt;li&gt;
+        &lt;a href="/tags#Slackware-ref"&gt;Slackware &lt;span&gt;6&lt;/span&gt;&lt;/a&gt;
+      &lt;/li&gt;      &lt;li&gt;
+        &lt;a href="/tags#ChangeLog-ref"&gt;ChangeLog &lt;span&gt;1&lt;/span&gt;&lt;/a&gt;
+      &lt;/li&gt;      &lt;li&gt;
+        &lt;a href="/tags#Ruby on Rails-ref"&gt;Ruby on Rails &lt;span&gt;1&lt;/span&gt;&lt;/a&gt;
+      &lt;/li&gt;      &lt;li&gt;
+        &lt;a href="/tags#Twitter-ref"&gt;Twitter &lt;span&gt;5&lt;/span&gt;&lt;/a&gt;
+      &lt;/li&gt;    &lt;/ul&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
@@ -293,9 +313,9 @@
     &lt;![endif]--&gt;
 
     &lt;!-- Le styles --&gt;
-    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.7777663133535867" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/stylesheets/style.css?0.24370855483073994" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.17569358163843563" type="text/css" rel="stylesheet" media="all"&gt;
+    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.35092779650879524" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/stylesheets/style.css?0.12326188467524546" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.30440322265224096" type="text/css" rel="stylesheet" media="all"&gt;
 
  
 
@@ -317,6 +337,8 @@
           &lt;ul class="nav"&gt;
               
                 &lt;li&gt;&lt;a href="/archive"&gt;Archive&lt;/a&gt;&lt;/li&gt;
+              
+                &lt;li&gt;&lt;a href="/tags"&gt;Tags&lt;/a&gt;&lt;/li&gt;
               
                 &lt;li&gt;&lt;a href="/about"&gt;About Me&lt;/a&gt;&lt;/li&gt;
           &lt;/ul&gt;
@@ -342,7 +364,7 @@
 &lt;/p&gt;
 
 &lt;p&gt;
-&lt;script src="http://snipt.net/embed/042a8665bb99695f04710df60758d944" type="text/javascript"&gt;&lt;/script&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;script type="text/javascript" src="http://ec2.oprod.net/snow/snow.js"&amp;gt;&amp;lt;/script&amp;gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;/p&gt;
 
 &lt;p&gt;Don't forget to save ;)&lt;/p&gt;
@@ -390,7 +412,15 @@
     &lt;br&gt;
     &lt;h4&gt;Tags&lt;/h4&gt;
     &lt;ul class="tag_box"&gt;
-    &lt;/ul&gt;
+      &lt;li&gt;
+        &lt;a href="/tags#Tumblr-ref"&gt;Tumblr &lt;span&gt;2&lt;/span&gt;&lt;/a&gt;
+      &lt;/li&gt;      &lt;li&gt;
+        &lt;a href="/tags#snowflakes-ref"&gt;snowflakes &lt;span&gt;1&lt;/span&gt;&lt;/a&gt;
+      &lt;/li&gt;      &lt;li&gt;
+        &lt;a href="/tags#script-ref"&gt;script &lt;span&gt;5&lt;/span&gt;&lt;/a&gt;
+      &lt;/li&gt;      &lt;li&gt;
+        &lt;a href="/tags#snow-ref"&gt;snow &lt;span&gt;2&lt;/span&gt;&lt;/a&gt;
+      &lt;/li&gt;    &lt;/ul&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
@@ -442,9 +472,9 @@
     &lt;![endif]--&gt;
 
     &lt;!-- Le styles --&gt;
-    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.4095905665632841" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/stylesheets/style.css?0.058661654283221565" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.7016200197950242" type="text/css" rel="stylesheet" media="all"&gt;
+    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.3619196484285365" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/stylesheets/style.css?0.24380574094137542" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.9566644687684902" type="text/css" rel="stylesheet" media="all"&gt;
 
  
 
@@ -466,6 +496,8 @@
           &lt;ul class="nav"&gt;
               
                 &lt;li&gt;&lt;a href="/archive"&gt;Archive&lt;/a&gt;&lt;/li&gt;
+              
+                &lt;li&gt;&lt;a href="/tags"&gt;Tags&lt;/a&gt;&lt;/li&gt;
               
                 &lt;li&gt;&lt;a href="/about"&gt;About Me&lt;/a&gt;&lt;/li&gt;
           &lt;/ul&gt;
@@ -547,7 +579,13 @@
     &lt;br&gt;
     &lt;h4&gt;Tags&lt;/h4&gt;
     &lt;ul class="tag_box"&gt;
-    &lt;/ul&gt;
+      &lt;li&gt;
+        &lt;a href="/tags#JRemoteShell-ref"&gt;JRemoteShell &lt;span&gt;1&lt;/span&gt;&lt;/a&gt;
+      &lt;/li&gt;      &lt;li&gt;
+        &lt;a href="/tags#Java-ref"&gt;Java &lt;span&gt;2&lt;/span&gt;&lt;/a&gt;
+      &lt;/li&gt;      &lt;li&gt;
+        &lt;a href="/tags#Shell-ref"&gt;Shell &lt;span&gt;3&lt;/span&gt;&lt;/a&gt;
+      &lt;/li&gt;    &lt;/ul&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
@@ -599,9 +637,9 @@
     &lt;![endif]--&gt;
 
     &lt;!-- Le styles --&gt;
-    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.7986562815726173" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/stylesheets/style.css?0.882434951478005" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.9898426360261449" type="text/css" rel="stylesheet" media="all"&gt;
+    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.21348330840743035" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/stylesheets/style.css?0.20918852113242836" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.7653949303518373" type="text/css" rel="stylesheet" media="all"&gt;
 
  
 
@@ -624,6 +662,8 @@
               
                 &lt;li&gt;&lt;a href="/archive"&gt;Archive&lt;/a&gt;&lt;/li&gt;
               
+                &lt;li&gt;&lt;a href="/tags"&gt;Tags&lt;/a&gt;&lt;/li&gt;
+              
                 &lt;li&gt;&lt;a href="/about"&gt;About Me&lt;/a&gt;&lt;/li&gt;
           &lt;/ul&gt;
         &lt;/div&gt;
@@ -641,12 +681,12 @@
   &lt;div class="span8"&gt;
     &lt;p&gt;To enable the template move the archive to:&lt;/p&gt;
 
-&lt;h4 class="contenttext"&gt;/usr/share/apps/kdevappwizard/templates/simple_java.tar.bz2&lt;/h4&gt;
+&lt;h5 class="contenttext"&gt;/usr/share/apps/kdevappwizard/templates/simple_java.tar.bz2&lt;/h5&gt;
 
 &lt;p&gt;or
-&lt;h4 class="contenttext"&gt;~/.kde4/share/apps/kdevappwizard/templates/simple&lt;em&gt;java.tar.bz2&lt;/h4&gt;
-&lt;p&gt;&#xA0;&lt;/p&gt;
-&lt;p&gt;Download: &amp;lt;a href=&amp;quot;&lt;a href="http://kde-apps.org/content/download.php?content=145846&amp;amp;amp;id=1&amp;amp;amp;tan=8554812"&gt;http://kde-apps.org/content/download.php?content=145846&amp;amp;amp;id=1&amp;amp;amp;tan=8554812&lt;/a&gt;&amp;quot; target=&amp;quot;&lt;/em&gt;blank&amp;quot;&amp;gt;&lt;a href="http://kde-apps.org/content/download.php?content=145846&amp;amp;amp;id=1&amp;amp;amp;tan=8554812"&gt;http://kde-apps.org/content/download.php?content=145846&amp;amp;amp;id=1&amp;amp;amp;tan=8554812&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+&lt;h5 class="contenttext"&gt;~/.kde4/share/apps/kdevappwizard/templates/simple_java.tar.bz2&lt;/h5&gt;&lt;/p&gt;
+
+&lt;p&gt;Download: &lt;a href="https://opendesktop.org/content/download.php?content=145846&amp;id=1&amp;tan=74368116" target="_blank"&gt;https://opendesktop.org/content/download.php?content=145846&amp;id=1&amp;tan=74368116&lt;/a&gt;&lt;/p&gt;
 
     &lt;hr&gt;
     &lt;div class="pagination"&gt;
@@ -687,7 +727,13 @@
     &lt;br&gt;
     &lt;h4&gt;Tags&lt;/h4&gt;
     &lt;ul class="tag_box"&gt;
-    &lt;/ul&gt;
+      &lt;li&gt;
+        &lt;a href="/tags#KDevelop-ref"&gt;KDevelop &lt;span&gt;2&lt;/span&gt;&lt;/a&gt;
+      &lt;/li&gt;      &lt;li&gt;
+        &lt;a href="/tags#Java-ref"&gt;Java &lt;span&gt;2&lt;/span&gt;&lt;/a&gt;
+      &lt;/li&gt;      &lt;li&gt;
+        &lt;a href="/tags#template-ref"&gt;template &lt;span&gt;1&lt;/span&gt;&lt;/a&gt;
+      &lt;/li&gt;    &lt;/ul&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
@@ -739,9 +785,9 @@
     &lt;![endif]--&gt;
 
     &lt;!-- Le styles --&gt;
-    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.323320470217752" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/stylesheets/style.css?0.5456067091864613" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.9341011930176507" type="text/css" rel="stylesheet" media="all"&gt;
+    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.25366730031222495" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/stylesheets/style.css?0.19256220828122983" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.6866716507642711" type="text/css" rel="stylesheet" media="all"&gt;
 
  
 
@@ -764,6 +810,8 @@
               
                 &lt;li&gt;&lt;a href="/archive"&gt;Archive&lt;/a&gt;&lt;/li&gt;
               
+                &lt;li&gt;&lt;a href="/tags"&gt;Tags&lt;/a&gt;&lt;/li&gt;
+              
                 &lt;li&gt;&lt;a href="/about"&gt;About Me&lt;/a&gt;&lt;/li&gt;
           &lt;/ul&gt;
         &lt;/div&gt;
@@ -779,30 +827,61 @@
 
 &lt;div class="row"&gt;
   &lt;div class="span8"&gt;
-    &lt;h2&gt;&lt;strong&gt;Update: &lt;/strong&gt;you can find the tarball for this script at: &lt;a href="http://github.com/downloads/otzy007/enable-zRam-in-Slackware/enable-zram-noarch.tgz"&gt;http://github.com/downloads/otzy007/enable-zRam-in-Slackware/enable-zram-noarch.tgz &lt;/a&gt;&lt;/h2&gt;
+    &lt;h4&gt;Update: you can find the tarball for this script at: &lt;a href="http://github.com/downloads/otzy007/enable-zRam-in-Slackware/enable-zram-noarch.tgz"&gt;http://github.com/downloads/otzy007/enable-zRam-in-Slackware/enable-zram-noarch.tgz &lt;/a&gt;&lt;/h4&gt;
 
 &lt;p&gt;Referring to this&lt;a href="http://www.webupd8.org/2011/10/increased-performance-in-linux-with.html" target="_blank"&gt; article&lt;/a&gt; it seems that using a swap disk is slower than compressing the data in the memory.&lt;/p&gt;
 
 &lt;p&gt;Enabling this under Slackware Linux it's pretty easy.&lt;/p&gt;
 
-&lt;p&gt;&#xA0;&lt;/p&gt;
-
 &lt;p&gt;Create the file /etc/rc.d/rc.zram and put this script into it:&lt;/p&gt;
 
-&lt;p&gt;&#xA0;&lt;/p&gt;
+&lt;p&gt;&lt;pre&gt;&lt;code&gt;#!/bin/bash
+# 
+# /etc/rc.d/rc.zram
+# Script to start zRam (Virtual Swap Compressed in RAM)
 
-&lt;script src="http://snipt.net/embed/75ce2bb2d1fb6f7442a71f3861f3a856" type="text/javascript"&gt;&lt;/script&gt;
+# Size of swap space in MB
+# default 1GB
+SIZE=1024
+start() {
+  modprobe zram
+  echo $SIZE*1024*1024 | bc &gt; /sys/block/zram0/disksize
+  mkswap /dev/zram0
+  swapon /dev/zram0
+}
 
-&lt;p&gt;&#xA0;&lt;/p&gt;
+stop() {
+  swapoff /dev/zram0
+}
+
+case "$1" in
+  start)
+    start
+  ;;
+
+  stop)
+    stop
+  ;;
+
+  restart)
+    echo 1 &gt; /sys/block/zram0/reset
+  ;;
+
+  *)
+  echo "Usage: $0 (start|stop|restart)"
+esac
+&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Remember to make it executable:&lt;/strong&gt; chmod +x /etc/rc.d/rc.zram&lt;/p&gt;
 
-&lt;p&gt;&#xA0;&lt;/p&gt;
-
 &lt;p&gt;Also copy this lines to /etc/rc.d/rc.local or /etc/rc.d/rc.M&lt;/p&gt;
-
 &lt;p&gt;
-&lt;script src="http://snipt.net/embed/59f8882162d8e8e915de48d5336f014c" type="text/javascript"&gt;&lt;/script&gt;
+&lt;pre&gt;&lt;code&gt;# Start zram swap space
+if [ -x /etc/rc.d/rc.zram ]
+then
+        /etc/rc.d/rc.zram start
+fi
+&lt;/code&gt;&lt;/pre&gt;
 &lt;/p&gt;
 
     &lt;hr&gt;
@@ -844,7 +923,11 @@
     &lt;br&gt;
     &lt;h4&gt;Tags&lt;/h4&gt;
     &lt;ul class="tag_box"&gt;
-    &lt;/ul&gt;
+      &lt;li&gt;
+        &lt;a href="/tags#Slackware-ref"&gt;Slackware &lt;span&gt;6&lt;/span&gt;&lt;/a&gt;
+      &lt;/li&gt;      &lt;li&gt;
+        &lt;a href="/tags#zram-ref"&gt;zram &lt;span&gt;1&lt;/span&gt;&lt;/a&gt;
+      &lt;/li&gt;    &lt;/ul&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
@@ -896,9 +979,9 @@
     &lt;![endif]--&gt;
 
     &lt;!-- Le styles --&gt;
-    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.5183783136355296" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/stylesheets/style.css?0.8687967682944776" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.7456680465965901" type="text/css" rel="stylesheet" media="all"&gt;
+    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.8428676806736135" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/stylesheets/style.css?0.6220375699209135" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.6177709125808898" type="text/css" rel="stylesheet" media="all"&gt;
 
  
 
@@ -921,6 +1004,8 @@
               
                 &lt;li&gt;&lt;a href="/archive"&gt;Archive&lt;/a&gt;&lt;/li&gt;
               
+                &lt;li&gt;&lt;a href="/tags"&gt;Tags&lt;/a&gt;&lt;/li&gt;
+              
                 &lt;li&gt;&lt;a href="/about"&gt;About Me&lt;/a&gt;&lt;/li&gt;
           &lt;/ul&gt;
         &lt;/div&gt;
@@ -936,7 +1021,7 @@
 
 &lt;div class="row"&gt;
   &lt;div class="span8"&gt;
-    &lt;p&gt;Here's a quick fix to enable/disable wireless using Fn+F2 on [[Slackware]] [[Linux]] on ASUS K52j and also the LED to indicate the status of the wireless.&lt;/p&gt;
+    &lt;p&gt;Here's a quick fix to enable/disable wireless using Fn+F2 on Slackware Linux on ASUS K52j and also the LED to indicate the status of the wireless.&lt;/p&gt;
 
 &lt;p&gt;First you need to create this file: /etc/acpi/events/etc/acpi/events/asus-wireless-switch&lt;/p&gt;
 
@@ -946,19 +1031,37 @@
 
 &lt;/p&gt;
 
-&lt;script src="http://snipt.net/embed/09ca39d3491a2e7835be0025c21a9eab" type="text/javascript"&gt;&lt;/script&gt;
+&lt;pre&gt;&lt;code&gt;#Enable the Fn-F2 button to turn on/off wireless
+#/etc/acpi/events/default
+event=hotkey ATKD 0000005d
+action=/etc/acpi/asus-wireless-switch.sh&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Then create another one: /etc/acpi/asus-wireless-switch.sh&lt;/p&gt;
 
 &lt;p&gt;With this script in it:&lt;/p&gt;
 
-&lt;script type="text/javascript" src="http://snipt.net/embed/f6fe86eb87f0f53b9660ed24a0ae4c86"&gt;&lt;/script&gt;
+&lt;pre&gt;&lt;code&gt;#/etc/acpi/asus-wireless-switch.sh
+#based on http://ubuntuforums.org/archive/index.php/t-1460790.html
+#!/bin/sh
+WLANSTATUS=`cat /sys/class/ieee80211/phy0/rfkill*/state`
+
+test -z $WLANSTATUS &amp;&amp; exit 1
+
+if [ $WLANSTATUS = 0 ]; then
+        echo 0 &gt; /sys/devices/platform/asus_laptop/wlan
+        echo 1 &gt; /sys/class/ieee80211/phy0/rfkill*/state
+elif [ $WLANSTATUS = 1 ]; then
+        echo 1 &gt; /sys/devices/platform/asus_laptop/wlan
+        echo 0 &gt; /sys/class/ieee80211/phy0/rfkill*/state
+fi
+
+&lt;/code&gt;&lt;/pre&gt;
 
     &lt;hr&gt;
     &lt;div class="pagination"&gt;
       &lt;ul&gt;
         &lt;ul&gt;
-            &lt;li class="prev"&gt;&lt;a href="/simple-kdevelop-c-cmake-and-makefile-templates" title="Simple KDevelop C CMake and Makefile templates"&gt;&amp;larr; Previous&lt;/a&gt;&lt;/li&gt;
+            &lt;li class="prev"&gt;&lt;a href="/kde-downloads-section-and-more" title="KDE downloads section and more ;)"&gt;&amp;larr; Previous&lt;/a&gt;&lt;/li&gt;
 
             &lt;li&gt;&lt;a href="/archive"&gt;Archive&lt;/a&gt;&lt;/li&gt;
 
@@ -993,150 +1096,17 @@
     &lt;br&gt;
     &lt;h4&gt;Tags&lt;/h4&gt;
     &lt;ul class="tag_box"&gt;
-    &lt;/ul&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-      &lt;/div&gt;
-
-      &lt;footer&gt;
-        &lt;p&gt;&amp;copy; Andrei G 2013 
-          with help from &lt;a href="http://ruhoh.com" target="_blank" title="The Definitive Technical Blogging Framework"&gt;ruhoh&lt;/a&gt;
-          and &lt;a href="http://twitter.github.com/bootstrap/" target="_blank"&gt;Twitter Bootstrap&lt;/a&gt;
-        &lt;/p&gt;
-      &lt;/footer&gt;
-
-    &lt;/div&gt; &lt;!-- /container --&gt;
-
-    &lt;!-- Google Prettify --&gt;
-&lt;script src="http://cdnjs.cloudflare.com/ajax/libs/prettify/188.0.0/prettify.js"&gt;&lt;/script&gt;
-&lt;script&gt;
-  var pres = document.getElementsByTagName("pre");
-  for (var i=0; i &lt; pres.length; ++i) {
-    pres[i].className = "prettyprint linenums";
-  }
-  prettyPrint();
-&lt;/script&gt;
-&lt;!-- end Google Prettify --&gt;
-    &lt;script&gt;
-  var _gaq=[['_setAccount','UA-123-12'],['_trackPageview']];
-  (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-  g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-  s.parentNode.insertBefore(g,s)}(document,'script'));
-&lt;/script&gt;
-  &lt;/body&gt;
-&lt;/html&gt;
-</description>
-    </item>
-    <item>
-      <title>Simple KDevelop C CMake and Makefile templates</title>
-      <link>http://sample.com/simple-kdevelop-c-cmake-and-makefile-templates</link>
-      <pubDate>2011-02-10 09:36:01 +0200</pubDate>
-      <description>&lt;!DOCTYPE html&gt;
-&lt;html lang="en"&gt;
-  &lt;head&gt;
-    &lt;meta charset="utf-8"&gt;
-    &lt;title&gt;Simple KDevelop C CMake and Makefile templates&lt;/title&gt;
-    &lt;meta name="author" content="Andrei G"&gt;
-
-    &lt;!-- Le HTML5 shim, for IE6-8 support of HTML elements --&gt;
-    &lt;!--[if lt IE 9]&gt;
-      &lt;script src="http://html5shim.googlecode.com/svn/trunk/html5.js"&gt;&lt;/script&gt;
-    &lt;![endif]--&gt;
-
-    &lt;!-- Le styles --&gt;
-    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.4731965719151031" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/stylesheets/style.css?0.7909780449490835" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.9868277352829957" type="text/css" rel="stylesheet" media="all"&gt;
-
- 
-
-    &lt;!-- Le fav and touch icons --&gt;
-  &lt;!-- Update these with your own images
-    &lt;link rel="shortcut icon" href="images/favicon.ico"&gt;
-    &lt;link rel="apple-touch-icon" href="images/apple-touch-icon.png"&gt;
-    &lt;link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png"&gt;
-    &lt;link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png"&gt;
-  --&gt;
-  &lt;/head&gt;
-
-  &lt;body&gt;
-
-    &lt;div class="navbar"&gt;
-      &lt;div class="navbar-inner"&gt;
-        &lt;div class="container"&gt;
-          &lt;a class="brand" href="/"&gt;oprod.net&lt;/a&gt;
-          &lt;ul class="nav"&gt;
-              
-                &lt;li&gt;&lt;a href="/archive"&gt;Archive&lt;/a&gt;&lt;/li&gt;
-              
-                &lt;li&gt;&lt;a href="/about"&gt;About Me&lt;/a&gt;&lt;/li&gt;
-          &lt;/ul&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;div class="container"&gt;
-
-      &lt;div class="content"&gt;
-        &lt;div class="page-header"&gt;
-  &lt;h1&gt;Simple KDevelop C CMake and Makefile templates &lt;/h1&gt;
-&lt;/div&gt;
-
-&lt;div class="row"&gt;
-  &lt;div class="span8"&gt;
-    &lt;p&gt;Head over to the new &lt;a href="downloads/category/9-kdevelop-templates"&gt;KDevelop templates section &lt;/a&gt;for two KDevelop C templates.&lt;/p&gt;
-
-&lt;p&gt;One is using a Makefile to compile and the other CMake.&lt;/p&gt;
-
-&lt;p class="contenttext"&gt;To use them just copy the archives to&#xA0; /usr/share/apps/kdevappwizard/templates/ or ~/.kde4/share/apps/kdevappwizard/templates&lt;/p&gt;
-
-&lt;p class="contenttext"&gt;&#xA0;&lt;/p&gt;
-
-&lt;p class="contenttext"&gt;CMake template: &lt;a href="https://sourceforge.net/projects/otzy-007.u/files/cmake_plainc.tar.bz2/download"&gt;https://sourceforge.net/projects/otzy-007.u/files/cmake_plainc.tar.bz2/download&lt;/a&gt;&lt;/p&gt;
-
-&lt;p class="contenttext"&gt;Makefile template: &lt;a href="http://opendesktop.org/content/show.php/Simple+C+Makefile+Template?content=138514" target="_blank"&gt;http://opendesktop.org/content/show.php/Simple+C+Makefile+Template?content=138514&lt;/a&gt;&lt;/p&gt;
-
-    &lt;hr&gt;
-    &lt;div class="pagination"&gt;
-      &lt;ul&gt;
-        &lt;ul&gt;
-            &lt;li class="prev"&gt;&lt;a href="/kde-downloads-section-and-more" title="KDE downloads section and more ;)"&gt;&amp;larr; Previous&lt;/a&gt;&lt;/li&gt;
-
-            &lt;li&gt;&lt;a href="/archive"&gt;Archive&lt;/a&gt;&lt;/li&gt;
-
-            &lt;li class="next"&gt;&lt;a href="/turning-on-off-wireless-on-asus-k52j" title="Turning ON/OFF wireless on ASUS K52j"&gt;Next &amp;rarr;&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/ul&gt;
-    &lt;/div&gt;
-    &lt;hr&gt;
-    &lt;div id="disqus_thread"&gt;&lt;/div&gt;
-&lt;script&gt;
-    var disqus_developer = 1;
-    var disqus_shortname = 'oprod'; // required: replace example with your forum shortname
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-&lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
-&lt;a href="http://disqus.com" class="dsq-brlink"&gt;blog comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;
-
-  &lt;/div&gt;
-  
-  &lt;div class="span4"&gt;
-    &lt;h4&gt;Published&lt;/h4&gt;
-    &lt;br&gt;&lt;div class="date"&gt;&lt;span&gt;2011-02-10 09:36:01 +0200&lt;/span&gt;&lt;/div&gt;
-    &lt;br&gt;
-    &lt;h4&gt;Categories&lt;/h4&gt;
-    &lt;ul class="tag_box"&gt;
-    &lt;/ul&gt;
-    &lt;br&gt;
-    &lt;h4&gt;Tags&lt;/h4&gt;
-    &lt;ul class="tag_box"&gt;
-    &lt;/ul&gt;
+      &lt;li&gt;
+        &lt;a href="/tags#Asus-ref"&gt;Asus &lt;span&gt;1&lt;/span&gt;&lt;/a&gt;
+      &lt;/li&gt;      &lt;li&gt;
+        &lt;a href="/tags#K52j-ref"&gt;K52j &lt;span&gt;1&lt;/span&gt;&lt;/a&gt;
+      &lt;/li&gt;      &lt;li&gt;
+        &lt;a href="/tags#Slackware-ref"&gt;Slackware &lt;span&gt;6&lt;/span&gt;&lt;/a&gt;
+      &lt;/li&gt;      &lt;li&gt;
+        &lt;a href="/tags#Linux-ref"&gt;Linux &lt;span&gt;4&lt;/span&gt;&lt;/a&gt;
+      &lt;/li&gt;      &lt;li&gt;
+        &lt;a href="/tags#wireless-ref"&gt;wireless &lt;span&gt;1&lt;/span&gt;&lt;/a&gt;
+      &lt;/li&gt;    &lt;/ul&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
@@ -1188,9 +1158,9 @@
     &lt;![endif]--&gt;
 
     &lt;!-- Le styles --&gt;
-    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.5302406305541263" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/stylesheets/style.css?0.1751580261708855" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.8263847074166387" type="text/css" rel="stylesheet" media="all"&gt;
+    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.24087471452348863" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/stylesheets/style.css?0.4493340966602525" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.31841527772601996" type="text/css" rel="stylesheet" media="all"&gt;
 
  
 
@@ -1213,6 +1183,8 @@
               
                 &lt;li&gt;&lt;a href="/archive"&gt;Archive&lt;/a&gt;&lt;/li&gt;
               
+                &lt;li&gt;&lt;a href="/tags"&gt;Tags&lt;/a&gt;&lt;/li&gt;
+              
                 &lt;li&gt;&lt;a href="/about"&gt;About Me&lt;/a&gt;&lt;/li&gt;
           &lt;/ul&gt;
         &lt;/div&gt;
@@ -1228,17 +1200,17 @@
 
 &lt;div class="row"&gt;
   &lt;div class="span8"&gt;
-    &lt;p&gt;Now there's a &lt;a href="index.php/downloads/section/4-kde" target="_blank"&gt;KDE section&lt;/a&gt; on &lt;a href="undefined/" target="_blank"&gt;oprod.net&lt;/a&gt;. The first things I've add are two &lt;a href="index.php/downloads/category/9-kdevelop-templates" target="_blank"&gt;C templates for KDevelop&lt;/a&gt;: one is a CMake compiled project and the another is a&lt;/p&gt;
+    &lt;p&gt;Now there's a &lt;a href="index.php/downloads/section/4-kde" target="_blank"&gt;KDE section&lt;/a&gt; on &lt;a href="http://oprod.net" target="_blank"&gt;oprod.net&lt;/a&gt;. The first things I've add are two &lt;a href="index.php/downloads/category/9-kdevelop-templates" target="_blank"&gt;C templates for KDevelop&lt;/a&gt;: one is a CMake compiled project and the another is a&lt;/p&gt;
 
     &lt;hr&gt;
     &lt;div class="pagination"&gt;
       &lt;ul&gt;
         &lt;ul&gt;
-            &lt;li class="prev"&gt;&lt;a href="/my-slackbuilds" title="My SlackBuilds"&gt;&amp;larr; Previous&lt;/a&gt;&lt;/li&gt;
+            &lt;li class="prev"&gt;&lt;a href="/simple-kdevelop-c-cmake-and-makefile-templates" title="Simple KDevelop C CMake and Makefile templates"&gt;&amp;larr; Previous&lt;/a&gt;&lt;/li&gt;
 
             &lt;li&gt;&lt;a href="/archive"&gt;Archive&lt;/a&gt;&lt;/li&gt;
 
-            &lt;li class="next"&gt;&lt;a href="/simple-kdevelop-c-cmake-and-makefile-templates" title="Simple KDevelop C CMake and Makefile templates"&gt;Next &amp;rarr;&lt;/a&gt;&lt;/li&gt;
+            &lt;li class="next"&gt;&lt;a href="/turning-on-off-wireless-on-asus-k52j" title="Turning ON/OFF wireless on ASUS K52j"&gt;Next &amp;rarr;&lt;/a&gt;&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/ul&gt;
     &lt;/div&gt;
@@ -1305,14 +1277,14 @@
 </description>
     </item>
     <item>
-      <title>My SlackBuilds</title>
-      <link>http://sample.com/my-slackbuilds</link>
-      <pubDate>2010-06-15 18:59:35 +0300</pubDate>
+      <title>Simple KDevelop C CMake and Makefile templates</title>
+      <link>http://sample.com/simple-kdevelop-c-cmake-and-makefile-templates</link>
+      <pubDate>2011-02-10 09:36:01 +0200</pubDate>
       <description>&lt;!DOCTYPE html&gt;
 &lt;html lang="en"&gt;
   &lt;head&gt;
     &lt;meta charset="utf-8"&gt;
-    &lt;title&gt;My SlackBuilds&lt;/title&gt;
+    &lt;title&gt;Simple KDevelop C CMake and Makefile templates&lt;/title&gt;
     &lt;meta name="author" content="Andrei G"&gt;
 
     &lt;!-- Le HTML5 shim, for IE6-8 support of HTML elements --&gt;
@@ -1321,9 +1293,9 @@
     &lt;![endif]--&gt;
 
     &lt;!-- Le styles --&gt;
-    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.5008139995118602" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/stylesheets/style.css?0.9132833039902479" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.7707305282536612" type="text/css" rel="stylesheet" media="all"&gt;
+    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.06957551086819924" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/stylesheets/style.css?0.9916270205324141" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.1421557037693184" type="text/css" rel="stylesheet" media="all"&gt;
 
  
 
@@ -1345,6 +1317,161 @@
           &lt;ul class="nav"&gt;
               
                 &lt;li&gt;&lt;a href="/archive"&gt;Archive&lt;/a&gt;&lt;/li&gt;
+              
+                &lt;li&gt;&lt;a href="/tags"&gt;Tags&lt;/a&gt;&lt;/li&gt;
+              
+                &lt;li&gt;&lt;a href="/about"&gt;About Me&lt;/a&gt;&lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class="container"&gt;
+
+      &lt;div class="content"&gt;
+        &lt;div class="page-header"&gt;
+  &lt;h1&gt;Simple KDevelop C CMake and Makefile templates &lt;/h1&gt;
+&lt;/div&gt;
+
+&lt;div class="row"&gt;
+  &lt;div class="span8"&gt;
+    &lt;p&gt;Head over to the new &lt;a href="downloads/category/9-kdevelop-templates"&gt;KDevelop templates section &lt;/a&gt;for two KDevelop C templates.&lt;/p&gt;
+
+&lt;p&gt;One is using a Makefile to compile and the other CMake.&lt;/p&gt;
+
+&lt;p class="contenttext"&gt;To use them just copy the archives to &lt;strong&gt;/usr/share/apps/kdevappwizard/templates/&lt;/strong&gt; or &lt;strong&gt;~/.kde4/share/apps/kdevappwizard/templates&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p class="contenttext"&gt;CMake template: &lt;a href="https://sourceforge.net/projects/otzy-007.u/files/cmake_plainc.tar.bz2/download"&gt;https://sourceforge.net/projects/otzy-007.u/files/cmake_plainc.tar.bz2/download&lt;/a&gt;&lt;/p&gt;
+
+&lt;p class="contenttext"&gt;Makefile template: &lt;a href="http://opendesktop.org/content/show.php/Simple+C+Makefile+Template?content=138514" target="_blank"&gt;http://opendesktop.org/content/show.php/Simple+C+Makefile+Template?content=138514&lt;/a&gt;&lt;/p&gt;
+
+    &lt;hr&gt;
+    &lt;div class="pagination"&gt;
+      &lt;ul&gt;
+        &lt;ul&gt;
+            &lt;li class="prev"&gt;&lt;a href="/my-slackbuilds" title="My SlackBuilds"&gt;&amp;larr; Previous&lt;/a&gt;&lt;/li&gt;
+
+            &lt;li&gt;&lt;a href="/archive"&gt;Archive&lt;/a&gt;&lt;/li&gt;
+
+            &lt;li class="next"&gt;&lt;a href="/kde-downloads-section-and-more" title="KDE downloads section and more ;)"&gt;Next &amp;rarr;&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+    &lt;hr&gt;
+    &lt;div id="disqus_thread"&gt;&lt;/div&gt;
+&lt;script&gt;
+    var disqus_developer = 1;
+    var disqus_shortname = 'oprod'; // required: replace example with your forum shortname
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+&lt;a href="http://disqus.com" class="dsq-brlink"&gt;blog comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;
+
+  &lt;/div&gt;
+  
+  &lt;div class="span4"&gt;
+    &lt;h4&gt;Published&lt;/h4&gt;
+    &lt;br&gt;&lt;div class="date"&gt;&lt;span&gt;2011-02-10 09:36:01 +0200&lt;/span&gt;&lt;/div&gt;
+    &lt;br&gt;
+    &lt;h4&gt;Categories&lt;/h4&gt;
+    &lt;ul class="tag_box"&gt;
+    &lt;/ul&gt;
+    &lt;br&gt;
+    &lt;h4&gt;Tags&lt;/h4&gt;
+    &lt;ul class="tag_box"&gt;
+      &lt;li&gt;
+        &lt;a href="/tags#KDevelop-ref"&gt;KDevelop &lt;span&gt;2&lt;/span&gt;&lt;/a&gt;
+      &lt;/li&gt;      &lt;li&gt;
+        &lt;a href="/tags#templates-ref"&gt;templates &lt;span&gt;1&lt;/span&gt;&lt;/a&gt;
+      &lt;/li&gt;      &lt;li&gt;
+        &lt;a href="/tags#c-ref"&gt;c &lt;span&gt;1&lt;/span&gt;&lt;/a&gt;
+      &lt;/li&gt;      &lt;li&gt;
+        &lt;a href="/tags#cmake-ref"&gt;cmake &lt;span&gt;1&lt;/span&gt;&lt;/a&gt;
+      &lt;/li&gt;      &lt;li&gt;
+        &lt;a href="/tags#Makefile-ref"&gt;Makefile &lt;span&gt;1&lt;/span&gt;&lt;/a&gt;
+      &lt;/li&gt;    &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+      &lt;/div&gt;
+
+      &lt;footer&gt;
+        &lt;p&gt;&amp;copy; Andrei G 2013 
+          with help from &lt;a href="http://ruhoh.com" target="_blank" title="The Definitive Technical Blogging Framework"&gt;ruhoh&lt;/a&gt;
+          and &lt;a href="http://twitter.github.com/bootstrap/" target="_blank"&gt;Twitter Bootstrap&lt;/a&gt;
+        &lt;/p&gt;
+      &lt;/footer&gt;
+
+    &lt;/div&gt; &lt;!-- /container --&gt;
+
+    &lt;!-- Google Prettify --&gt;
+&lt;script src="http://cdnjs.cloudflare.com/ajax/libs/prettify/188.0.0/prettify.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+  var pres = document.getElementsByTagName("pre");
+  for (var i=0; i &lt; pres.length; ++i) {
+    pres[i].className = "prettyprint linenums";
+  }
+  prettyPrint();
+&lt;/script&gt;
+&lt;!-- end Google Prettify --&gt;
+    &lt;script&gt;
+  var _gaq=[['_setAccount','UA-123-12'],['_trackPageview']];
+  (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+  g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+  s.parentNode.insertBefore(g,s)}(document,'script'));
+&lt;/script&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</description>
+    </item>
+    <item>
+      <title>My SlackBuilds</title>
+      <link>http://sample.com/my-slackbuilds</link>
+      <pubDate>2010-06-15 18:59:35 +0300</pubDate>
+      <description>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+  &lt;head&gt;
+    &lt;meta charset="utf-8"&gt;
+    &lt;title&gt;My SlackBuilds&lt;/title&gt;
+    &lt;meta name="author" content="Andrei G"&gt;
+
+    &lt;!-- Le HTML5 shim, for IE6-8 support of HTML elements --&gt;
+    &lt;!--[if lt IE 9]&gt;
+      &lt;script src="http://html5shim.googlecode.com/svn/trunk/html5.js"&gt;&lt;/script&gt;
+    &lt;![endif]--&gt;
+
+    &lt;!-- Le styles --&gt;
+    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.7449286148130915" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/stylesheets/style.css?0.8226021879677267" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.12527846673087628" type="text/css" rel="stylesheet" media="all"&gt;
+
+ 
+
+    &lt;!-- Le fav and touch icons --&gt;
+  &lt;!-- Update these with your own images
+    &lt;link rel="shortcut icon" href="images/favicon.ico"&gt;
+    &lt;link rel="apple-touch-icon" href="images/apple-touch-icon.png"&gt;
+    &lt;link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png"&gt;
+    &lt;link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png"&gt;
+  --&gt;
+  &lt;/head&gt;
+
+  &lt;body&gt;
+
+    &lt;div class="navbar"&gt;
+      &lt;div class="navbar-inner"&gt;
+        &lt;div class="container"&gt;
+          &lt;a class="brand" href="/"&gt;oprod.net&lt;/a&gt;
+          &lt;ul class="nav"&gt;
+              
+                &lt;li&gt;&lt;a href="/archive"&gt;Archive&lt;/a&gt;&lt;/li&gt;
+              
+                &lt;li&gt;&lt;a href="/tags"&gt;Tags&lt;/a&gt;&lt;/li&gt;
               
                 &lt;li&gt;&lt;a href="/about"&gt;About Me&lt;/a&gt;&lt;/li&gt;
           &lt;/ul&gt;
@@ -1371,7 +1498,7 @@
 
             &lt;li&gt;&lt;a href="/archive"&gt;Archive&lt;/a&gt;&lt;/li&gt;
 
-            &lt;li class="next"&gt;&lt;a href="/kde-downloads-section-and-more" title="KDE downloads section and more ;)"&gt;Next &amp;rarr;&lt;/a&gt;&lt;/li&gt;
+            &lt;li class="next"&gt;&lt;a href="/simple-kdevelop-c-cmake-and-makefile-templates" title="Simple KDevelop C CMake and Makefile templates"&gt;Next &amp;rarr;&lt;/a&gt;&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/ul&gt;
     &lt;/div&gt;
@@ -1402,7 +1529,11 @@
     &lt;br&gt;
     &lt;h4&gt;Tags&lt;/h4&gt;
     &lt;ul class="tag_box"&gt;
-    &lt;/ul&gt;
+      &lt;li&gt;
+        &lt;a href="/tags#Slackware-ref"&gt;Slackware &lt;span&gt;6&lt;/span&gt;&lt;/a&gt;
+      &lt;/li&gt;      &lt;li&gt;
+        &lt;a href="/tags#SlackBuilds-ref"&gt;SlackBuilds &lt;span&gt;1&lt;/span&gt;&lt;/a&gt;
+      &lt;/li&gt;    &lt;/ul&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
@@ -1454,9 +1585,9 @@
     &lt;![endif]--&gt;
 
     &lt;!-- Le styles --&gt;
-    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.7770692143066266" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/stylesheets/style.css?0.0817220842917794" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.23979863556230951" type="text/css" rel="stylesheet" media="all"&gt;
+    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.2002908004596502" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/stylesheets/style.css?0.005254927210239679" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.980150483008606" type="text/css" rel="stylesheet" media="all"&gt;
 
  
 
@@ -1479,6 +1610,8 @@
               
                 &lt;li&gt;&lt;a href="/archive"&gt;Archive&lt;/a&gt;&lt;/li&gt;
               
+                &lt;li&gt;&lt;a href="/tags"&gt;Tags&lt;/a&gt;&lt;/li&gt;
+              
                 &lt;li&gt;&lt;a href="/about"&gt;About Me&lt;/a&gt;&lt;/li&gt;
           &lt;/ul&gt;
         &lt;/div&gt;
@@ -1494,10 +1627,14 @@
 
 &lt;div class="row"&gt;
   &lt;div class="span8"&gt;
-    &lt;p&gt;Here's the new viewtyconv script. It can be used to convert movies into [[DivX]] format for [[LG KU990 Viewty]] or similar phones from a [[bash shell]]. Now it's using [[ffmpeg]], no longer [[mencoder]]. To use this script you'll need to have installed &lt;a href="http://ffmpeg.org/" target="_blank" title="ffmpeg"&gt;ffmpeg&lt;/a&gt; and also &lt;a href="http://lame.sourceforge.net/" target="_blank" title="lame"&gt;lame&lt;/a&gt;. Ffmpeg must be configured with --enable-libmp3lame, otherwise the script will not work.&lt;/p&gt;
+    &lt;p&gt;Here's the new viewtyconv script. It can be used to convert movies into DivX format for LG KU990 Viewty or similar phones from a Bash Shell. Now it's using [[ffmpeg]], no longer [[mencoder]]. To use this script you'll need to have installed &lt;a href="http://ffmpeg.org/" target="_blank" title="ffmpeg"&gt;ffmpeg&lt;/a&gt; and also &lt;a href="http://lame.sourceforge.net/" target="_blank" title="lame"&gt;lame&lt;/a&gt;. Ffmpeg must be configured with --enable-libmp3lame, otherwise the script will not work.&lt;/p&gt;
 
 &lt;p&gt;
-&lt;script src="http://snipt.net/embed/d5dcb0373e05254ed36c4cdfcd551ced" type="text/javascript"&gt;&lt;/script&gt;
+&lt;pre&gt;&lt;code&gt;#!/bin/bash
+#
+#by otzy_007 http://oprod.net 
+#
+ffmpeg -i $1 -vcodec mpeg4 -s 400x240 -acodec libmp3lame -ab 128k -vtag DIVX $2&lt;/code&gt;&lt;/pre&gt;
 &lt;/p&gt;
 
 &lt;p&gt;You can also download the scripts from here: &lt;a href="index.php/downloads/category/3-viewtyconv"&gt;http://oprod.net/index.php/downloads/category/3-viewtyconv&lt;/a&gt;&lt;/p&gt;
@@ -1541,7 +1678,15 @@
     &lt;br&gt;
     &lt;h4&gt;Tags&lt;/h4&gt;
     &lt;ul class="tag_box"&gt;
-    &lt;/ul&gt;
+      &lt;li&gt;
+        &lt;a href="/tags#viewtyconv-ref"&gt;viewtyconv &lt;span&gt;3&lt;/span&gt;&lt;/a&gt;
+      &lt;/li&gt;      &lt;li&gt;
+        &lt;a href="/tags#DivX-ref"&gt;DivX &lt;span&gt;1&lt;/span&gt;&lt;/a&gt;
+      &lt;/li&gt;      &lt;li&gt;
+        &lt;a href="/tags#Linux-ref"&gt;Linux &lt;span&gt;4&lt;/span&gt;&lt;/a&gt;
+      &lt;/li&gt;      &lt;li&gt;
+        &lt;a href="/tags#FFmpeg-ref"&gt;FFmpeg &lt;span&gt;1&lt;/span&gt;&lt;/a&gt;
+      &lt;/li&gt;    &lt;/ul&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
@@ -1593,9 +1738,9 @@
     &lt;![endif]--&gt;
 
     &lt;!-- Le styles --&gt;
-    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.1747758672726588" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/stylesheets/style.css?0.4623328588619039" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.3111179944897067" type="text/css" rel="stylesheet" media="all"&gt;
+    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.5040412560282514" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/stylesheets/style.css?0.7605030954497275" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.6746825602428694" type="text/css" rel="stylesheet" media="all"&gt;
 
  
 
@@ -1618,6 +1763,8 @@
               
                 &lt;li&gt;&lt;a href="/archive"&gt;Archive&lt;/a&gt;&lt;/li&gt;
               
+                &lt;li&gt;&lt;a href="/tags"&gt;Tags&lt;/a&gt;&lt;/li&gt;
+              
                 &lt;li&gt;&lt;a href="/about"&gt;About Me&lt;/a&gt;&lt;/li&gt;
           &lt;/ul&gt;
         &lt;/div&gt;
@@ -1633,15 +1780,15 @@
 
 &lt;div class="row"&gt;
   &lt;div class="span8"&gt;
-    &lt;p&gt;After moving from &lt;a href="http://g.ho.st/" target="_blank"&gt;g.ho.st&lt;/a&gt; to &lt;a href="http://ghost.cc/" target="_blank"&gt;ghost.cc&lt;/a&gt; the free [[g.ho.st]] Virtual Computer is closing on March 15. Here's the announcement: &lt;a href="http://ghost.cc/home/SignUp.jsp" target="_blank"&gt;http://ghost.cc/home/SignUp.jsp&lt;/a&gt;&lt;/p&gt;
+    &lt;p&gt;After moving from &lt;a href="http://g.ho.st/" target="_blank"&gt;g.ho.st&lt;/a&gt; to &lt;a href="http://ghost.cc/" target="_blank"&gt;ghost.cc&lt;/a&gt; the free g.ho.st Virtual Computer is closing on March 15. Here's the announcement: &lt;a href="http://ghost.cc/home/SignUp.jsp" target="_blank"&gt;http://ghost.cc/home/SignUp.jsp&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Now I'm downloading all my files but where I will find another [[g.ho.st]] like service to put my files on using ftp an also to get lot of space for them?&lt;/p&gt;
+&lt;p&gt;Now I'm downloading all my files but where I will find another g.ho.st like service to put my files on using ftp an also to get lot of space for them?&lt;/p&gt;
 
     &lt;hr&gt;
     &lt;div class="pagination"&gt;
       &lt;ul&gt;
         &lt;ul&gt;
-            &lt;li class="prev"&gt;&lt;a href="/choqok-rt-patch" title="Choqok RT patch"&gt;&amp;larr; Previous&lt;/a&gt;&lt;/li&gt;
+            &lt;li class="prev"&gt;&lt;a href="/hplip-3-9-12-on-slackware-13-0" title="hplip 3.9.12 on Slackware 13.0"&gt;&amp;larr; Previous&lt;/a&gt;&lt;/li&gt;
 
             &lt;li&gt;&lt;a href="/archive"&gt;Archive&lt;/a&gt;&lt;/li&gt;
 
@@ -1676,144 +1823,9 @@
     &lt;br&gt;
     &lt;h4&gt;Tags&lt;/h4&gt;
     &lt;ul class="tag_box"&gt;
-    &lt;/ul&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-      &lt;/div&gt;
-
-      &lt;footer&gt;
-        &lt;p&gt;&amp;copy; Andrei G 2013 
-          with help from &lt;a href="http://ruhoh.com" target="_blank" title="The Definitive Technical Blogging Framework"&gt;ruhoh&lt;/a&gt;
-          and &lt;a href="http://twitter.github.com/bootstrap/" target="_blank"&gt;Twitter Bootstrap&lt;/a&gt;
-        &lt;/p&gt;
-      &lt;/footer&gt;
-
-    &lt;/div&gt; &lt;!-- /container --&gt;
-
-    &lt;!-- Google Prettify --&gt;
-&lt;script src="http://cdnjs.cloudflare.com/ajax/libs/prettify/188.0.0/prettify.js"&gt;&lt;/script&gt;
-&lt;script&gt;
-  var pres = document.getElementsByTagName("pre");
-  for (var i=0; i &lt; pres.length; ++i) {
-    pres[i].className = "prettyprint linenums";
-  }
-  prettyPrint();
-&lt;/script&gt;
-&lt;!-- end Google Prettify --&gt;
-    &lt;script&gt;
-  var _gaq=[['_setAccount','UA-123-12'],['_trackPageview']];
-  (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-  g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-  s.parentNode.insertBefore(g,s)}(document,'script'));
-&lt;/script&gt;
-  &lt;/body&gt;
-&lt;/html&gt;
-</description>
-    </item>
-    <item>
-      <title>Choqok RT patch</title>
-      <link>http://sample.com/choqok-rt-patch</link>
-      <pubDate>2010-02-06 18:46:55 +0200</pubDate>
-      <description>&lt;!DOCTYPE html&gt;
-&lt;html lang="en"&gt;
-  &lt;head&gt;
-    &lt;meta charset="utf-8"&gt;
-    &lt;title&gt;Choqok RT patch&lt;/title&gt;
-    &lt;meta name="author" content="Andrei G"&gt;
-
-    &lt;!-- Le HTML5 shim, for IE6-8 support of HTML elements --&gt;
-    &lt;!--[if lt IE 9]&gt;
-      &lt;script src="http://html5shim.googlecode.com/svn/trunk/html5.js"&gt;&lt;/script&gt;
-    &lt;![endif]--&gt;
-
-    &lt;!-- Le styles --&gt;
-    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.6240525339381154" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/stylesheets/style.css?0.003140518989220298" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.42409010897340393" type="text/css" rel="stylesheet" media="all"&gt;
-
- 
-
-    &lt;!-- Le fav and touch icons --&gt;
-  &lt;!-- Update these with your own images
-    &lt;link rel="shortcut icon" href="images/favicon.ico"&gt;
-    &lt;link rel="apple-touch-icon" href="images/apple-touch-icon.png"&gt;
-    &lt;link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png"&gt;
-    &lt;link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png"&gt;
-  --&gt;
-  &lt;/head&gt;
-
-  &lt;body&gt;
-
-    &lt;div class="navbar"&gt;
-      &lt;div class="navbar-inner"&gt;
-        &lt;div class="container"&gt;
-          &lt;a class="brand" href="/"&gt;oprod.net&lt;/a&gt;
-          &lt;ul class="nav"&gt;
-              
-                &lt;li&gt;&lt;a href="/archive"&gt;Archive&lt;/a&gt;&lt;/li&gt;
-              
-                &lt;li&gt;&lt;a href="/about"&gt;About Me&lt;/a&gt;&lt;/li&gt;
-          &lt;/ul&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;div class="container"&gt;
-
-      &lt;div class="content"&gt;
-        &lt;div class="page-header"&gt;
-  &lt;h1&gt;Choqok RT patch &lt;/h1&gt;
-&lt;/div&gt;
-
-&lt;div class="row"&gt;
-  &lt;div class="span8"&gt;
-    &lt;p&gt;I've patched [[Choqok]], a [[Twitter]] client so instead of posting that &#x267B; symbol to post [[RT]] when retweeting something. The patch can be downloaded from here: &lt;a href="http://drop.io/ozfiles/asset/choqok-rt-patch" target="_blank"&gt;http://drop.io/ozfiles/asset/choqok-rt-patch&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;You must patch the &lt;em&gt;postwidget.cpp&lt;/em&gt; file which you will find in the &lt;em&gt;libchoqok/ui&lt;/em&gt; directory from the source package with the command:&lt;/p&gt;
-
-&lt;script src="http://snipt.net/embed/a27b932236bb5268faa2418139be3be2" type="text/javascript"&gt;&lt;/script&gt;
-
-    &lt;hr&gt;
-    &lt;div class="pagination"&gt;
-      &lt;ul&gt;
-        &lt;ul&gt;
-            &lt;li class="prev"&gt;&lt;a href="/hplip-3-9-12-on-slackware-13-0" title="hplip 3.9.12 on Slackware 13.0"&gt;&amp;larr; Previous&lt;/a&gt;&lt;/li&gt;
-
-            &lt;li&gt;&lt;a href="/archive"&gt;Archive&lt;/a&gt;&lt;/li&gt;
-
-            &lt;li class="next"&gt;&lt;a href="/public-g-ho-st-service-is-closing" title="public g.ho.st service is closing"&gt;Next &amp;rarr;&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/ul&gt;
-    &lt;/div&gt;
-    &lt;hr&gt;
-    &lt;div id="disqus_thread"&gt;&lt;/div&gt;
-&lt;script&gt;
-    var disqus_developer = 1;
-    var disqus_shortname = 'oprod'; // required: replace example with your forum shortname
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-&lt;/script&gt;
-&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
-&lt;a href="http://disqus.com" class="dsq-brlink"&gt;blog comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;
-
-  &lt;/div&gt;
-  
-  &lt;div class="span4"&gt;
-    &lt;h4&gt;Published&lt;/h4&gt;
-    &lt;br&gt;&lt;div class="date"&gt;&lt;span&gt;2010-02-06 18:46:55 +0200&lt;/span&gt;&lt;/div&gt;
-    &lt;br&gt;
-    &lt;h4&gt;Categories&lt;/h4&gt;
-    &lt;ul class="tag_box"&gt;
-    &lt;/ul&gt;
-    &lt;br&gt;
-    &lt;h4&gt;Tags&lt;/h4&gt;
-    &lt;ul class="tag_box"&gt;
-    &lt;/ul&gt;
+      &lt;li&gt;
+        &lt;a href="/tags#g.ho.st-ref"&gt;g.ho.st &lt;span&gt;2&lt;/span&gt;&lt;/a&gt;
+      &lt;/li&gt;    &lt;/ul&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
@@ -1865,9 +1877,9 @@
     &lt;![endif]--&gt;
 
     &lt;!-- Le styles --&gt;
-    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.22017535286593382" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/stylesheets/style.css?0.2687671138340465" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.3115856785814236" type="text/css" rel="stylesheet" media="all"&gt;
+    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.3938805072424473" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/stylesheets/style.css?0.6431344819895837" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.4580031063998796" type="text/css" rel="stylesheet" media="all"&gt;
 
  
 
@@ -1889,6 +1901,8 @@
           &lt;ul class="nav"&gt;
               
                 &lt;li&gt;&lt;a href="/archive"&gt;Archive&lt;/a&gt;&lt;/li&gt;
+              
+                &lt;li&gt;&lt;a href="/tags"&gt;Tags&lt;/a&gt;&lt;/li&gt;
               
                 &lt;li&gt;&lt;a href="/about"&gt;About Me&lt;/a&gt;&lt;/li&gt;
           &lt;/ul&gt;
@@ -1925,7 +1939,7 @@
 
             &lt;li&gt;&lt;a href="/archive"&gt;Archive&lt;/a&gt;&lt;/li&gt;
 
-            &lt;li class="next"&gt;&lt;a href="/choqok-rt-patch" title="Choqok RT patch"&gt;Next &amp;rarr;&lt;/a&gt;&lt;/li&gt;
+            &lt;li class="next"&gt;&lt;a href="/public-g-ho-st-service-is-closing" title="public g.ho.st service is closing"&gt;Next &amp;rarr;&lt;/a&gt;&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/ul&gt;
     &lt;/div&gt;
@@ -1956,7 +1970,11 @@
     &lt;br&gt;
     &lt;h4&gt;Tags&lt;/h4&gt;
     &lt;ul class="tag_box"&gt;
-    &lt;/ul&gt;
+      &lt;li&gt;
+        &lt;a href="/tags#HPLIP-ref"&gt;HPLIP &lt;span&gt;1&lt;/span&gt;&lt;/a&gt;
+      &lt;/li&gt;      &lt;li&gt;
+        &lt;a href="/tags#Slackware-ref"&gt;Slackware &lt;span&gt;6&lt;/span&gt;&lt;/a&gt;
+      &lt;/li&gt;    &lt;/ul&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
@@ -2008,9 +2026,9 @@
     &lt;![endif]--&gt;
 
     &lt;!-- Le styles --&gt;
-    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.9156207704114928" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/stylesheets/style.css?0.24519020468316488" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.04767688740438025" type="text/css" rel="stylesheet" media="all"&gt;
+    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.12369750916849542" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/stylesheets/style.css?0.06705726443101967" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.48459478523298816" type="text/css" rel="stylesheet" media="all"&gt;
 
  
 
@@ -2032,6 +2050,8 @@
           &lt;ul class="nav"&gt;
               
                 &lt;li&gt;&lt;a href="/archive"&gt;Archive&lt;/a&gt;&lt;/li&gt;
+              
+                &lt;li&gt;&lt;a href="/tags"&gt;Tags&lt;/a&gt;&lt;/li&gt;
               
                 &lt;li&gt;&lt;a href="/about"&gt;About Me&lt;/a&gt;&lt;/li&gt;
           &lt;/ul&gt;
@@ -2145,9 +2165,9 @@
     &lt;![endif]--&gt;
 
     &lt;!-- Le styles --&gt;
-    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.10184441172566594" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/stylesheets/style.css?0.9485903202702187" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.2710424134405357" type="text/css" rel="stylesheet" media="all"&gt;
+    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.6318719131517102" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/stylesheets/style.css?0.18505387938207707" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.13048754728381762" type="text/css" rel="stylesheet" media="all"&gt;
 
  
 
@@ -2170,6 +2190,8 @@
               
                 &lt;li&gt;&lt;a href="/archive"&gt;Archive&lt;/a&gt;&lt;/li&gt;
               
+                &lt;li&gt;&lt;a href="/tags"&gt;Tags&lt;/a&gt;&lt;/li&gt;
+              
                 &lt;li&gt;&lt;a href="/about"&gt;About Me&lt;/a&gt;&lt;/li&gt;
           &lt;/ul&gt;
         &lt;/div&gt;
@@ -2190,7 +2212,7 @@
 &lt;p&gt;You can also get the script on your website or &lt;a href="http://oprod.net/index.php/news/4-blog/95-falling-snow-flakes-on-tumblr-page" title="tumblr snow script"&gt;Tumblr page&lt;/a&gt; just by pasting this code before &lt;strong&gt;&amp;lt;/body&amp;gt;&lt;/strong&gt; tag at the end of the page.&lt;/p&gt;
 
 &lt;p&gt;
-&lt;script src="http://snipt.net/embed/bd0606b760202c78fdd258524c444b1f" type="text/javascript"&gt;&lt;/script&gt;
+&lt;pre&gt;&lt;code&gt;&lt;script type="text/javascript" src="http://oprod.net/scripts/snow.js"&gt;&lt;/script&gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;/p&gt;
 
 &lt;p&gt;Also I have installed a Disqus plugin for Joomla, so feel free to comment.&lt;/p&gt;
@@ -2234,7 +2256,11 @@
     &lt;br&gt;
     &lt;h4&gt;Tags&lt;/h4&gt;
     &lt;ul class="tag_box"&gt;
-    &lt;/ul&gt;
+      &lt;li&gt;
+        &lt;a href="/tags#snow-ref"&gt;snow &lt;span&gt;2&lt;/span&gt;&lt;/a&gt;
+      &lt;/li&gt;      &lt;li&gt;
+        &lt;a href="/tags#script-ref"&gt;script &lt;span&gt;5&lt;/span&gt;&lt;/a&gt;
+      &lt;/li&gt;    &lt;/ul&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
@@ -2286,9 +2312,9 @@
     &lt;![endif]--&gt;
 
     &lt;!-- Le styles --&gt;
-    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.8519091686570097" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/stylesheets/style.css?0.6345987753414727" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.3963660345259553" type="text/css" rel="stylesheet" media="all"&gt;
+    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.23310778877248828" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/stylesheets/style.css?0.3373841292123003" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.29135056576125007" type="text/css" rel="stylesheet" media="all"&gt;
 
  
 
@@ -2311,6 +2337,8 @@
               
                 &lt;li&gt;&lt;a href="/archive"&gt;Archive&lt;/a&gt;&lt;/li&gt;
               
+                &lt;li&gt;&lt;a href="/tags"&gt;Tags&lt;/a&gt;&lt;/li&gt;
+              
                 &lt;li&gt;&lt;a href="/about"&gt;About Me&lt;/a&gt;&lt;/li&gt;
           &lt;/ul&gt;
         &lt;/div&gt;
@@ -2331,7 +2359,7 @@
 &lt;p&gt;Asa ca am pus si pe &lt;a href="http://otzy.tumblr.com/" target="_blank"&gt;http://otzy.tumblr.com&lt;/a&gt; putina zapada.&lt;/p&gt;
 &lt;p&gt;Am folosit scriptul snow.js pe care il gasiti aici: &lt;a href="http://www.peters1.dk/webtools/javascript/sne.php?sprog=en" target="_blank"&gt;http://www.peters1.dk/webtools/javascript/sne.php?sprog=en&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Sau puteti doar sa adaugati codul asta imediat dupa tagul &lt;strong&gt;&amp;lt;body&amp;gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&amp;lt;script type=&#x201D;text/javascript&#x201D; src=&#x201D;http://oprod.net/scripts/snow.js&#x201D;&amp;gt;&amp;lt;/script&amp;gt; &lt;strong&gt;&lt;br /&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;script type="text/javascript" src="http://oprod.net/scripts/snow.js"&gt;&lt;/script&gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
     &lt;hr&gt;
@@ -2425,9 +2453,9 @@
     &lt;![endif]--&gt;
 
     &lt;!-- Le styles --&gt;
-    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.09103994721001996" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/stylesheets/style.css?0.15258391595100596" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.910187305174057" type="text/css" rel="stylesheet" media="all"&gt;
+    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.8761996984801765" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/stylesheets/style.css?0.18122496621968753" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.024969916687491822" type="text/css" rel="stylesheet" media="all"&gt;
 
  
 
@@ -2450,6 +2478,8 @@
               
                 &lt;li&gt;&lt;a href="/archive"&gt;Archive&lt;/a&gt;&lt;/li&gt;
               
+                &lt;li&gt;&lt;a href="/tags"&gt;Tags&lt;/a&gt;&lt;/li&gt;
+              
                 &lt;li&gt;&lt;a href="/about"&gt;About Me&lt;/a&gt;&lt;/li&gt;
           &lt;/ul&gt;
         &lt;/div&gt;
@@ -2470,7 +2500,95 @@
 &lt;p&gt;&#xA0;&lt;/p&gt;
 
 &lt;p&gt;
-&lt;script src="http://snipt.net/embed/4cae3b1e89c08bf42fd0aad08679f18b" type="text/javascript"&gt;&lt;/script&gt;
+&lt;pre&gt;&lt;code&gt;
+&amp;lt;?php
+///////////////////////////////////////////////////
+//system status php script for bot.im
+//created by otzy_007(Andrei G.) http://oprod.net
+///////////////////////////////////////////////////
+
+//the message recieved from the user
+$msg = strtolower($_REQUEST["msg"]);
+////////////////////////////////////////////////
+//list of commands that can be executed
+///////////////////////////////////////
+//to add a new command just follow this sintax:
+//
+//case "command":
+//     echo_line("command");
+//break;
+//
+//where command is your command to be executed
+/////////////////////////////////////////////// 
+switch($msg)
+{
+  case "date":
+        echo date("D M j G:i:s T Y");
+  break;
+  case "whoami":
+        echo exec(whoami);
+  break;
+  case "who":
+       echo exec(who);
+  break;
+  case "free":
+        echo_line("free");
+  break;
+  case "procinfo":
+        echo_line("procinfo");
+  break;
+  case "meminfo":
+        echo_line("cat /proc/meminfo");
+  break;
+  case "df":
+        echo_line("df");
+  break;
+  case "ps":
+        echo_line("ps");
+  break;
+  case "uptime":
+        echo_line("uptime");
+  break;
+  case "uname":
+        echo_line("uname -a");
+  break;
+  case "mounts":
+        echo_line("cat /proc/mounts");
+  break;
+  case "user":
+        echo $_REQUEST['user'];
+  break;
+  case "netstat":
+        echo_line("netstat");
+  break;
+  case "help":
+        help();
+  break;
+  default:
+        echo "For a list of avaible commands enter help";
+  break;
+}
+
+function help(){
+echo "Avaible commands: help, date, whoami, who,
+ uname, uptime, ps, df, meminfo, procinfo, free, mounts, netstat";
+}
+function echo_line($command)
+{ 
+
+ exec($command, $line);
+
+ for($i=0; $i&lt;count($line); $i++)
+ {
+  echo "&lt;br&gt;";
+  echo $line[$i];
+  
+}
+
+}
+
+?&gt; 
+&lt;/code&gt;&lt;/pre&gt;
 &lt;/p&gt;
 
     &lt;hr&gt;
@@ -2512,7 +2630,13 @@
     &lt;br&gt;
     &lt;h4&gt;Tags&lt;/h4&gt;
     &lt;ul class="tag_box"&gt;
-    &lt;/ul&gt;
+      &lt;li&gt;
+        &lt;a href="/tags#status-ref"&gt;status &lt;span&gt;1&lt;/span&gt;&lt;/a&gt;
+      &lt;/li&gt;      &lt;li&gt;
+        &lt;a href="/tags#script-ref"&gt;script &lt;span&gt;5&lt;/span&gt;&lt;/a&gt;
+      &lt;/li&gt;      &lt;li&gt;
+        &lt;a href="/tags#bot.im-ref"&gt;bot.im &lt;span&gt;3&lt;/span&gt;&lt;/a&gt;
+      &lt;/li&gt;    &lt;/ul&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
@@ -2564,9 +2688,9 @@
     &lt;![endif]--&gt;
 
     &lt;!-- Le styles --&gt;
-    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.12417260118377438" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/stylesheets/style.css?0.09690928541058841" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.793109616816082" type="text/css" rel="stylesheet" media="all"&gt;
+    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.6021176157237539" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/stylesheets/style.css?0.40173832731460213" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.36591456595395155" type="text/css" rel="stylesheet" media="all"&gt;
 
  
 
@@ -2589,6 +2713,8 @@
               
                 &lt;li&gt;&lt;a href="/archive"&gt;Archive&lt;/a&gt;&lt;/li&gt;
               
+                &lt;li&gt;&lt;a href="/tags"&gt;Tags&lt;/a&gt;&lt;/li&gt;
+              
                 &lt;li&gt;&lt;a href="/about"&gt;About Me&lt;/a&gt;&lt;/li&gt;
           &lt;/ul&gt;
         &lt;/div&gt;
@@ -2608,7 +2734,51 @@
 
 &lt;p&gt;And here's the script:&lt;/p&gt;
 
-&lt;script src="http://snipt.net/embed/1be1c2f98c803d1a0274138f875bf6bb" type="text/javascript"&gt;&lt;/script&gt;
+&lt;pre&gt;&lt;code&gt;
+&amp;lt;?php
+
+//simple php script for bot.im
+//created by otzy_007(Andrei G.) http://oprod.net
+
+
+//the message from the user
+$msg = strtolower($_REQUEST["msg"]);
+
+$part = explode("(", $msg);
+
+//if there's an exec command execute it
+//example: exec(whoami), exec(ps), exec(uptime)
+if($part[0]=='exec'){
+$part[1]=rtrim($part[1], ")"); 
+echo exec($part[1]);
+}
+//else execute the other commands
+else
+{
+switch($msg)
+{
+  case "date":
+        echo date("D M j G:i:s T Y");
+  break;
+  case "hello":
+        echo "Hi!";
+  break;
+  case "user":
+        echo $_REQUEST['user'];
+  break;
+  case "help":
+        help();
+  break;
+  default:
+        echo "For a list of avaible commands enter help";
+  break;
+}
+}
+function help(){
+echo "Avaible commands: help, date, hello, exec(\"command\") without quotes";
+}
+
+?&gt;&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;&lt;/br&gt;
 Download: &lt;a href="http://oprod.net/index.php/downloads/category/8-php?download=17%3Abot.im-script"&gt;&lt;a href="http://oprod.net/index.php/downloads/category/8-php?download=17%3Abot.im-script"&gt;http://oprod.net/index.php/downloads/category/8-php?download=17%3Abot.im-script&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
@@ -2652,7 +2822,11 @@ Download: &lt;a href="http://oprod.net/index.php/downloads/category/8-php?downlo
     &lt;br&gt;
     &lt;h4&gt;Tags&lt;/h4&gt;
     &lt;ul class="tag_box"&gt;
-    &lt;/ul&gt;
+      &lt;li&gt;
+        &lt;a href="/tags#bot.im-ref"&gt;bot.im &lt;span&gt;3&lt;/span&gt;&lt;/a&gt;
+      &lt;/li&gt;      &lt;li&gt;
+        &lt;a href="/tags#shell-ref"&gt;shell &lt;span&gt;1&lt;/span&gt;&lt;/a&gt;
+      &lt;/li&gt;    &lt;/ul&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
@@ -2704,9 +2878,9 @@ Download: &lt;a href="http://oprod.net/index.php/downloads/category/8-php?downlo
     &lt;![endif]--&gt;
 
     &lt;!-- Le styles --&gt;
-    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.6234740515784593" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/stylesheets/style.css?0.16154711881642858" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.907720684012499" type="text/css" rel="stylesheet" media="all"&gt;
+    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.4312451920053161" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/stylesheets/style.css?0.026081369441667834" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.08986079218020326" type="text/css" rel="stylesheet" media="all"&gt;
 
  
 
@@ -2729,6 +2903,8 @@ Download: &lt;a href="http://oprod.net/index.php/downloads/category/8-php?downlo
               
                 &lt;li&gt;&lt;a href="/archive"&gt;Archive&lt;/a&gt;&lt;/li&gt;
               
+                &lt;li&gt;&lt;a href="/tags"&gt;Tags&lt;/a&gt;&lt;/li&gt;
+              
                 &lt;li&gt;&lt;a href="/about"&gt;About Me&lt;/a&gt;&lt;/li&gt;
           &lt;/ul&gt;
         &lt;/div&gt;
@@ -2744,7 +2920,7 @@ Download: &lt;a href="http://oprod.net/index.php/downloads/category/8-php?downlo
 
 &lt;div class="row"&gt;
   &lt;div class="span8"&gt;
-    &lt;p&gt;Today I've created my [[tumblr]] account. You can find me at: &lt;a href="http://otzy.tumblr.com/" target="_blank"&gt;http://otzy.tumblr.com&lt;/a&gt;&lt;/p&gt;
+    &lt;p&gt;Today I've created my Tumblr account. You can find me at: &lt;a href="http://otzy.tumblr.com/" target="_blank"&gt;http://otzy.tumblr.com&lt;/a&gt;&lt;/p&gt;
 
     &lt;hr&gt;
     &lt;div class="pagination"&gt;
@@ -2778,6 +2954,143 @@ Download: &lt;a href="http://oprod.net/index.php/downloads/category/8-php?downlo
   &lt;div class="span4"&gt;
     &lt;h4&gt;Published&lt;/h4&gt;
     &lt;br&gt;&lt;div class="date"&gt;&lt;span&gt;2009-11-24 19:52:38 +0200&lt;/span&gt;&lt;/div&gt;
+    &lt;br&gt;
+    &lt;h4&gt;Categories&lt;/h4&gt;
+    &lt;ul class="tag_box"&gt;
+    &lt;/ul&gt;
+    &lt;br&gt;
+    &lt;h4&gt;Tags&lt;/h4&gt;
+    &lt;ul class="tag_box"&gt;
+      &lt;li&gt;
+        &lt;a href="/tags#Tumblr-ref"&gt;Tumblr &lt;span&gt;2&lt;/span&gt;&lt;/a&gt;
+      &lt;/li&gt;    &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+      &lt;/div&gt;
+
+      &lt;footer&gt;
+        &lt;p&gt;&amp;copy; Andrei G 2013 
+          with help from &lt;a href="http://ruhoh.com" target="_blank" title="The Definitive Technical Blogging Framework"&gt;ruhoh&lt;/a&gt;
+          and &lt;a href="http://twitter.github.com/bootstrap/" target="_blank"&gt;Twitter Bootstrap&lt;/a&gt;
+        &lt;/p&gt;
+      &lt;/footer&gt;
+
+    &lt;/div&gt; &lt;!-- /container --&gt;
+
+    &lt;!-- Google Prettify --&gt;
+&lt;script src="http://cdnjs.cloudflare.com/ajax/libs/prettify/188.0.0/prettify.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+  var pres = document.getElementsByTagName("pre");
+  for (var i=0; i &lt; pres.length; ++i) {
+    pres[i].className = "prettyprint linenums";
+  }
+  prettyPrint();
+&lt;/script&gt;
+&lt;!-- end Google Prettify --&gt;
+    &lt;script&gt;
+  var _gaq=[['_setAccount','UA-123-12'],['_trackPageview']];
+  (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+  g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+  s.parentNode.insertBefore(g,s)}(document,'script'));
+&lt;/script&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</description>
+    </item>
+    <item>
+      <title>Moved articles from the old blog</title>
+      <link>http://sample.com/moved-articles-from-the-old-blog</link>
+      <pubDate>2009-11-20 19:54:19 +0200</pubDate>
+      <description>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+  &lt;head&gt;
+    &lt;meta charset="utf-8"&gt;
+    &lt;title&gt;Moved articles from the old blog&lt;/title&gt;
+    &lt;meta name="author" content="Andrei G"&gt;
+
+    &lt;!-- Le HTML5 shim, for IE6-8 support of HTML elements --&gt;
+    &lt;!--[if lt IE 9]&gt;
+      &lt;script src="http://html5shim.googlecode.com/svn/trunk/html5.js"&gt;&lt;/script&gt;
+    &lt;![endif]--&gt;
+
+    &lt;!-- Le styles --&gt;
+    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.6145046526078127" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/stylesheets/style.css?0.9517593868397833" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.23559180585075934" type="text/css" rel="stylesheet" media="all"&gt;
+
+ 
+
+    &lt;!-- Le fav and touch icons --&gt;
+  &lt;!-- Update these with your own images
+    &lt;link rel="shortcut icon" href="images/favicon.ico"&gt;
+    &lt;link rel="apple-touch-icon" href="images/apple-touch-icon.png"&gt;
+    &lt;link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png"&gt;
+    &lt;link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png"&gt;
+  --&gt;
+  &lt;/head&gt;
+
+  &lt;body&gt;
+
+    &lt;div class="navbar"&gt;
+      &lt;div class="navbar-inner"&gt;
+        &lt;div class="container"&gt;
+          &lt;a class="brand" href="/"&gt;oprod.net&lt;/a&gt;
+          &lt;ul class="nav"&gt;
+              
+                &lt;li&gt;&lt;a href="/archive"&gt;Archive&lt;/a&gt;&lt;/li&gt;
+              
+                &lt;li&gt;&lt;a href="/tags"&gt;Tags&lt;/a&gt;&lt;/li&gt;
+              
+                &lt;li&gt;&lt;a href="/about"&gt;About Me&lt;/a&gt;&lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class="container"&gt;
+
+      &lt;div class="content"&gt;
+        &lt;div class="page-header"&gt;
+  &lt;h1&gt;Moved articles from the old blog &lt;/h1&gt;
+&lt;/div&gt;
+
+&lt;div class="row"&gt;
+  &lt;div class="span8"&gt;
+    &lt;p&gt;I've moved all the articles from my old blog &lt;a href="http://otzy.blogspot.com/" target="_blank"&gt;http://otzy.blogspot.com&lt;/a&gt; to this website. You can find them under the &lt;a href="http://oprod.net/index.php/news" target="_blank"&gt;News&lt;/a&gt; section of the menu or at: &lt;a href="http://blog.oprod.net" target="_self"&gt;http://blog.oprod.net&lt;/a&gt;. This will be from now on the the place were I'll post updates about what projects I am working at, and of course you can find me on twitter at:&#xA0; &lt;a href="http://twitter.com/otzy_007" target="_blank"&gt;http://twitter.com/otzy_007&lt;/a&gt;&lt;/p&gt;
+
+    &lt;hr&gt;
+    &lt;div class="pagination"&gt;
+      &lt;ul&gt;
+        &lt;ul&gt;
+            &lt;li class="prev"&gt;&lt;a href="/downloads-page" title="Downloads page"&gt;&amp;larr; Previous&lt;/a&gt;&lt;/li&gt;
+
+            &lt;li&gt;&lt;a href="/archive"&gt;Archive&lt;/a&gt;&lt;/li&gt;
+
+            &lt;li class="next"&gt;&lt;a href="/tumblr" title="Tumblr"&gt;Next &amp;rarr;&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+    &lt;hr&gt;
+    &lt;div id="disqus_thread"&gt;&lt;/div&gt;
+&lt;script&gt;
+    var disqus_developer = 1;
+    var disqus_shortname = 'oprod'; // required: replace example with your forum shortname
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+&lt;a href="http://disqus.com" class="dsq-brlink"&gt;blog comments powered by &lt;span class="logo-disqus"&gt;Disqus&lt;/span&gt;&lt;/a&gt;
+
+  &lt;/div&gt;
+  
+  &lt;div class="span4"&gt;
+    &lt;h4&gt;Published&lt;/h4&gt;
+    &lt;br&gt;&lt;div class="date"&gt;&lt;span&gt;2009-11-20 19:54:19 +0200&lt;/span&gt;&lt;/div&gt;
     &lt;br&gt;
     &lt;h4&gt;Categories&lt;/h4&gt;
     &lt;ul class="tag_box"&gt;

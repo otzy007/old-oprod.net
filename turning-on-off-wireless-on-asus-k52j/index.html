@@ -11,9 +11,9 @@
     <![endif]-->
 
     <!-- Le styles -->
-    <link href="/assets/twitter/stylesheets/bootstrap.min.css?0.35554461930833337" type="text/css" rel="stylesheet" media="all">
-<link href="/assets/twitter/stylesheets/style.css?0.5105262157279862" type="text/css" rel="stylesheet" media="all">
-<link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.03511317990699192" type="text/css" rel="stylesheet" media="all">
+    <link href="/assets/twitter/stylesheets/bootstrap.min.css?0.5273615560068096" type="text/css" rel="stylesheet" media="all">
+<link href="/assets/twitter/stylesheets/style.css?0.8566104433155339" type="text/css" rel="stylesheet" media="all">
+<link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.38203247470708546" type="text/css" rel="stylesheet" media="all">
 
  
 
@@ -36,6 +36,8 @@
               
                 <li><a href="/archive">Archive</a></li>
               
+                <li><a href="/tags">Tags</a></li>
+              
                 <li><a href="/about">About Me</a></li>
           </ul>
         </div>
@@ -51,7 +53,7 @@
 
 <div class="row">
   <div class="span8">
-    <p>Here's a quick fix to enable/disable wireless using Fn+F2 on [[Slackware]] [[Linux]] on ASUS K52j and also the LED to indicate the status of the wireless.</p>
+    <p>Here's a quick fix to enable/disable wireless using Fn+F2 on Slackware Linux on ASUS K52j and also the LED to indicate the status of the wireless.</p>
 
 <p>First you need to create this file: /etc/acpi/events/etc/acpi/events/asus-wireless-switch</p>
 
@@ -61,19 +63,37 @@
 
 </p>
 
-<script src="http://snipt.net/embed/09ca39d3491a2e7835be0025c21a9eab" type="text/javascript"></script>
+<pre><code>#Enable the Fn-F2 button to turn on/off wireless
+#/etc/acpi/events/default
+event=hotkey ATKD 0000005d
+action=/etc/acpi/asus-wireless-switch.sh</code></pre>
 
 <p>Then create another one: /etc/acpi/asus-wireless-switch.sh</p>
 
 <p>With this script in it:</p>
 
-<script type="text/javascript" src="http://snipt.net/embed/f6fe86eb87f0f53b9660ed24a0ae4c86"></script>
+<pre><code>#/etc/acpi/asus-wireless-switch.sh
+#based on http://ubuntuforums.org/archive/index.php/t-1460790.html
+#!/bin/sh
+WLANSTATUS=`cat /sys/class/ieee80211/phy0/rfkill*/state`
+
+test -z $WLANSTATUS && exit 1
+
+if [ $WLANSTATUS = 0 ]; then
+        echo 0 > /sys/devices/platform/asus_laptop/wlan
+        echo 1 > /sys/class/ieee80211/phy0/rfkill*/state
+elif [ $WLANSTATUS = 1 ]; then
+        echo 1 > /sys/devices/platform/asus_laptop/wlan
+        echo 0 > /sys/class/ieee80211/phy0/rfkill*/state
+fi
+
+</code></pre>
 
     <hr>
     <div class="pagination">
       <ul>
         <ul>
-            <li class="prev"><a href="/simple-kdevelop-c-cmake-and-makefile-templates" title="Simple KDevelop C CMake and Makefile templates">&larr; Previous</a></li>
+            <li class="prev"><a href="/kde-downloads-section-and-more" title="KDE downloads section and more ;)">&larr; Previous</a></li>
 
             <li><a href="/archive">Archive</a></li>
 
@@ -108,7 +128,17 @@
     <br>
     <h4>Tags</h4>
     <ul class="tag_box">
-    </ul>
+      <li>
+        <a href="/tags#Asus-ref">Asus <span>1</span></a>
+      </li>      <li>
+        <a href="/tags#K52j-ref">K52j <span>1</span></a>
+      </li>      <li>
+        <a href="/tags#Slackware-ref">Slackware <span>6</span></a>
+      </li>      <li>
+        <a href="/tags#Linux-ref">Linux <span>4</span></a>
+      </li>      <li>
+        <a href="/tags#wireless-ref">wireless <span>1</span></a>
+      </li>    </ul>
   </div>
 </div>
 

@@ -11,9 +11,9 @@
     <![endif]-->
 
     <!-- Le styles -->
-    <link href="/assets/twitter/stylesheets/bootstrap.min.css?0.01605033756288643" type="text/css" rel="stylesheet" media="all">
-<link href="/assets/twitter/stylesheets/style.css?0.1634748750218511" type="text/css" rel="stylesheet" media="all">
-<link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.6084683988993109" type="text/css" rel="stylesheet" media="all">
+    <link href="/assets/twitter/stylesheets/bootstrap.min.css?0.6663357315080676" type="text/css" rel="stylesheet" media="all">
+<link href="/assets/twitter/stylesheets/style.css?0.18616352621719756" type="text/css" rel="stylesheet" media="all">
+<link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.3633770972445637" type="text/css" rel="stylesheet" media="all">
 
  
 
@@ -36,6 +36,8 @@
               
                 <li><a href="/archive">Archive</a></li>
               
+                <li><a href="/tags">Tags</a></li>
+              
                 <li><a href="/about">About Me</a></li>
           </ul>
         </div>
@@ -51,10 +53,14 @@
 
 <div class="row">
   <div class="span8">
-    <p>Here's the new viewtyconv script. It can be used to convert movies into [[DivX]] format for [[LG KU990 Viewty]] or similar phones from a [[bash shell]]. Now it's using [[ffmpeg]], no longer [[mencoder]]. To use this script you'll need to have installed <a href="http://ffmpeg.org/" target="_blank" title="ffmpeg">ffmpeg</a> and also <a href="http://lame.sourceforge.net/" target="_blank" title="lame">lame</a>. Ffmpeg must be configured with --enable-libmp3lame, otherwise the script will not work.</p>
+    <p>Here's the new viewtyconv script. It can be used to convert movies into DivX format for LG KU990 Viewty or similar phones from a Bash Shell. Now it's using [[ffmpeg]], no longer [[mencoder]]. To use this script you'll need to have installed <a href="http://ffmpeg.org/" target="_blank" title="ffmpeg">ffmpeg</a> and also <a href="http://lame.sourceforge.net/" target="_blank" title="lame">lame</a>. Ffmpeg must be configured with --enable-libmp3lame, otherwise the script will not work.</p>
 
 <p>
-<script src="http://snipt.net/embed/d5dcb0373e05254ed36c4cdfcd551ced" type="text/javascript"></script>
+<pre><code>#!/bin/bash
+#
+#by otzy_007 http://oprod.net 
+#
+ffmpeg -i $1 -vcodec mpeg4 -s 400x240 -acodec libmp3lame -ab 128k -vtag DIVX $2</code></pre>
 </p>
 
 <p>You can also download the scripts from here: <a href="index.php/downloads/category/3-viewtyconv">http://oprod.net/index.php/downloads/category/3-viewtyconv</a></p>
@@ -98,7 +104,15 @@
     <br>
     <h4>Tags</h4>
     <ul class="tag_box">
-    </ul>
+      <li>
+        <a href="/tags#viewtyconv-ref">viewtyconv <span>3</span></a>
+      </li>      <li>
+        <a href="/tags#DivX-ref">DivX <span>1</span></a>
+      </li>      <li>
+        <a href="/tags#Linux-ref">Linux <span>4</span></a>
+      </li>      <li>
+        <a href="/tags#FFmpeg-ref">FFmpeg <span>1</span></a>
+      </li>    </ul>
   </div>
 </div>
 

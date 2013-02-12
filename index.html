@@ -12,9 +12,9 @@
     <![endif]-->
 
     <!-- Le styles -->
-    <link href="/assets/twitter/stylesheets/bootstrap.min.css?0.14162593564587167" type="text/css" rel="stylesheet" media="all">
-<link href="/assets/twitter/stylesheets/style.css?0.1159955993541677" type="text/css" rel="stylesheet" media="all">
-<link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.501487596208473" type="text/css" rel="stylesheet" media="all">
+    <link href="/assets/twitter/stylesheets/bootstrap.min.css?0.9754135190644972" type="text/css" rel="stylesheet" media="all">
+<link href="/assets/twitter/stylesheets/style.css?0.02684482125637866" type="text/css" rel="stylesheet" media="all">
+<link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.5547995476101635" type="text/css" rel="stylesheet" media="all">
 
  
 
@@ -36,6 +36,8 @@
           <ul class="nav">
               
                 <li><a href="/archive">Archive</a></li>
+              
+                <li><a href="/tags">Tags</a></li>
               
                 <li><a href="/about">About Me</a></li>
           </ul>
@@ -73,7 +75,7 @@
   <span class="date">2012-06-21 09:54:34 +0300</span></h3>
   <p>While I was playing with Ruby on Rails and the Twitter Gem I've developed a small app to tweet any new changes in the Slackware's ChangeLog file.</p>
 
-<p>Here's the link to the app: <a href="http://slackware-changelog.heroku.com/" target="_blank">http://slackware-changelog.heroku.com</a></p>
+<p>Here's the link to the app: <a href="http://slackware-changelog.oprod.net" target="_blank">http://slackware-changelog.oprod.net</a></p>
 
 <p>There you will find the accounts for different Slackware versions.</p>
 
@@ -95,7 +97,7 @@
 </p>
 
 <p>
-<script src="http://snipt.net/embed/042a8665bb99695f04710df60758d944" type="text/javascript"></script>
+<pre><code>&lt;script type="text/javascript" src="http://ec2.oprod.net/snow/snow.js"&gt;&lt;/script&gt;</code></pre>
 </p>
 
 <p>Don't forget to save ;)</p>
@@ -150,12 +152,12 @@
   <span class="date">2011-10-09 09:40:33 +0300</span></h3>
   <p>To enable the template move the archive to:</p>
 
-<h4 class="contenttext">/usr/share/apps/kdevappwizard/templates/simple_java.tar.bz2</h4>
+<h5 class="contenttext">/usr/share/apps/kdevappwizard/templates/simple_java.tar.bz2</h5>
 
 <p>or
-<h4 class="contenttext">~/.kde4/share/apps/kdevappwizard/templates/simple<em>java.tar.bz2</h4>
-<p> </p>
-<p>Download: &lt;a href=&quot;<a href="http://kde-apps.org/content/download.php?content=145846&amp;amp;id=1&amp;amp;tan=8554812">http://kde-apps.org/content/download.php?content=145846&amp;amp;id=1&amp;amp;tan=8554812</a>&quot; target=&quot;</em>blank&quot;&gt;<a href="http://kde-apps.org/content/download.php?content=145846&amp;amp;id=1&amp;amp;tan=8554812">http://kde-apps.org/content/download.php?content=145846&amp;amp;id=1&amp;amp;tan=8554812</a></a></p></p>
+<h5 class="contenttext">~/.kde4/share/apps/kdevappwizard/templates/simple_java.tar.bz2</h5></p>
+
+<p>Download: <a href="https://opendesktop.org/content/download.php?content=145846&id=1&tan=74368116" target="_blank">https://opendesktop.org/content/download.php?content=145846&id=1&tan=74368116</a></p>
 
 
   <div class="more">
@@ -166,31 +168,35 @@
   <h3 class="title"><a href="/compress-ram-with-zram-in-slackware">Compress RAM with zRam in Slackware</a> 
   <br>
   <span class="date">2011-10-08 16:14:43 +0300</span></h3>
-  <h2><strong>Update: </strong>you can find the tarball for this script at: <a href="http://github.com/downloads/otzy007/enable-zRam-in-Slackware/enable-zram-noarch.tgz">http://github.com/downloads/otzy007/enable-zRam-in-Slackware/enable-zram-noarch.tgz </a></h2>
+  <h4>Update: you can find the tarball for this script at: <a href="http://github.com/downloads/otzy007/enable-zRam-in-Slackware/enable-zram-noarch.tgz">http://github.com/downloads/otzy007/enable-zRam-in-Slackware/enable-zram-noarch.tgz </a></h4>
 
 <p>Referring to this<a href="http://www.webupd8.org/2011/10/increased-performance-in-linux-with.html" target="_blank"> article</a> it seems that using a swap disk is slower than compressing the data in the memory.</p>
 
 <p>Enabling this under Slackware Linux it's pretty easy.</p>
 
-<p> </p>
-
 <p>Create the file /etc/rc.d/rc.zram and put this script into it:</p>
 
-<p> </p>
+<p><p><pre><code>#!/bin/bash</p>
 
-<script src="http://snipt.net/embed/75ce2bb2d1fb6f7442a71f3861f3a856" type="text/javascript"></script>
+<h1 id="toc_0">/etc/rc.d/rc.zram</h1>
 
-<p> </p>
+<h1 id="toc_1">Script to start zRam (Virtual Swap Compressed in RAM)</h1>
 
-<p><strong>Remember to make it executable:</strong> chmod +x /etc/rc.d/rc.zram</p>
+<h1 id="toc_2">Size of swap space in MB</h1>
 
-<p> </p>
+<h1 id="toc_3">default 1GB</h1>
 
-<p>Also copy this lines to /etc/rc.d/rc.local or /etc/rc.d/rc.M</p>
+<p>SIZE=1024
+start() {
+  modprobe zram
+  echo $SIZE<em>1024</em>1024 | bc &gt; /sys/block/zram0/disksize
+  mkswap /dev/zram0
+  swapon /dev/zram0
+}</p>
 
-<p>
-<script src="http://snipt.net/embed/59f8882162d8e8e915de48d5336f014c" type="text/javascript"></script>
-</p>
+<p>stop() {
+  swapoff /dev/zram0
+}</p>
 
 
   <div class="more">
@@ -201,7 +207,7 @@
   <h3 class="title"><a href="/turning-on-off-wireless-on-asus-k52j">Turning ON/OFF wireless on ASUS K52j</a> 
   <br>
   <span class="date">2011-03-31 21:31:42 +0300</span></h3>
-  <p>Here's a quick fix to enable/disable wireless using Fn+F2 on [[Slackware]] [[Linux]] on ASUS K52j and also the LED to indicate the status of the wireless.</p>
+  <p>Here's a quick fix to enable/disable wireless using Fn+F2 on Slackware Linux on ASUS K52j and also the LED to indicate the status of the wireless.</p>
 
 <p>First you need to create this file: /etc/acpi/events/etc/acpi/events/asus-wireless-switch</p>
 
@@ -211,17 +217,47 @@
 
 </p>
 
-<script src="http://snipt.net/embed/09ca39d3491a2e7835be0025c21a9eab" type="text/javascript"></script>
+<pre><code>#Enable the Fn-F2 button to turn on/off wireless
+#/etc/acpi/events/default
+event=hotkey ATKD 0000005d
+action=/etc/acpi/asus-wireless-switch.sh</code></pre>
 
 <p>Then create another one: /etc/acpi/asus-wireless-switch.sh</p>
 
 <p>With this script in it:</p>
 
-<script type="text/javascript" src="http://snipt.net/embed/f6fe86eb87f0f53b9660ed24a0ae4c86"></script>
+<p><pre><code>#/etc/acpi/asus-wireless-switch.sh</p>
+
+<h1 id="toc_0">based on <a href="http://ubuntuforums.org/archive/index.php/t-1460790.html">http://ubuntuforums.org/archive/index.php/t-1460790.html</a></h1>
+
+<h1 id="toc_1">!/bin/sh</h1>
+
+<p>WLANSTATUS=<code>cat /sys/class/ieee80211/phy0/rfkill*/state</code></p>
+
+<p>test -z $WLANSTATUS &amp;&amp; exit 1</p>
+
+<p>if [ $WLANSTATUS = 0 ]; then
+        echo 0 &gt; /sys/devices/platform/asus<em>laptop/wlan
+        echo 1 &gt; /sys/class/ieee80211/phy0/rfkill*/state
+elif [ $WLANSTATUS = 1 ]; then
+        echo 1 &gt; /sys/devices/platform/asus</em>laptop/wlan
+        echo 0 &gt; /sys/class/ieee80211/phy0/rfkill*/state
+fi</p>
 
 
   <div class="more">
     <a href="/turning-on-off-wireless-on-asus-k52j" class="btn">read more..</a>
+  </div>
+</div>
+<div class="post">
+  <h3 class="title"><a href="/kde-downloads-section-and-more">KDE downloads section and more ;)</a> 
+  <br>
+  <span class="date">2011-02-10 09:27:37 +0200</span></h3>
+  <p>Now there's a <a href="index.php/downloads/section/4-kde" target="_blank">KDE section</a> on <a href="http://oprod.net" target="_blank">oprod.net</a>. The first things I've add are two <a href="index.php/downloads/category/9-kdevelop-templates" target="_blank">C templates for KDevelop</a>: one is a CMake compiled project and the another is a</p>
+
+
+  <div class="more">
+    <a href="/kde-downloads-section-and-more" class="btn">read more..</a>
   </div>
 </div>
 <div class="post">
@@ -232,9 +268,7 @@
 
 <p>One is using a Makefile to compile and the other CMake.</p>
 
-<p class="contenttext">To use them just copy the archives to  /usr/share/apps/kdevappwizard/templates/ or ~/.kde4/share/apps/kdevappwizard/templates</p>
-
-<p class="contenttext"> </p>
+<p class="contenttext">To use them just copy the archives to <strong>/usr/share/apps/kdevappwizard/templates/</strong> or <strong>~/.kde4/share/apps/kdevappwizard/templates</strong></p>
 
 <p class="contenttext">CMake template: <a href="https://sourceforge.net/projects/otzy-007.u/files/cmake_plainc.tar.bz2/download">https://sourceforge.net/projects/otzy-007.u/files/cmake_plainc.tar.bz2/download</a></p>
 
@@ -243,17 +277,6 @@
 
   <div class="more">
     <a href="/simple-kdevelop-c-cmake-and-makefile-templates" class="btn">read more..</a>
-  </div>
-</div>
-<div class="post">
-  <h3 class="title"><a href="/kde-downloads-section-and-more">KDE downloads section and more ;)</a> 
-  <br>
-  <span class="date">2011-02-10 09:27:37 +0200</span></h3>
-  <p>Now there's a <a href="index.php/downloads/section/4-kde" target="_blank">KDE section</a> on <a href="undefined/" target="_blank">oprod.net</a>. The first things I've add are two <a href="index.php/downloads/category/9-kdevelop-templates" target="_blank">C templates for KDevelop</a>: one is a CMake compiled project and the another is a</p>
-
-
-  <div class="more">
-    <a href="/kde-downloads-section-and-more" class="btn">read more..</a>
   </div>
 </div>
 <div class="post">

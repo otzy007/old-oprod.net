@@ -11,9 +11,9 @@
     <![endif]-->
 
     <!-- Le styles -->
-    <link href="/assets/twitter/stylesheets/bootstrap.min.css?0.9644874190283405" type="text/css" rel="stylesheet" media="all">
-<link href="/assets/twitter/stylesheets/style.css?0.9360662332234615" type="text/css" rel="stylesheet" media="all">
-<link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.5934845608342697" type="text/css" rel="stylesheet" media="all">
+    <link href="/assets/twitter/stylesheets/bootstrap.min.css?0.1559954517893859" type="text/css" rel="stylesheet" media="all">
+<link href="/assets/twitter/stylesheets/style.css?0.6632421622252074" type="text/css" rel="stylesheet" media="all">
+<link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.7458356321380355" type="text/css" rel="stylesheet" media="all">
 
  
 
@@ -36,6 +36,8 @@
               
                 <li><a href="/archive">Archive</a></li>
               
+                <li><a href="/tags">Tags</a></li>
+              
                 <li><a href="/about">About Me</a></li>
           </ul>
         </div>
@@ -56,7 +58,95 @@
 <p> </p>
 
 <p>
-<script src="http://snipt.net/embed/4cae3b1e89c08bf42fd0aad08679f18b" type="text/javascript"></script>
+<pre><code>
+&lt;?php
+///////////////////////////////////////////////////
+//system status php script for bot.im
+//created by otzy_007(Andrei G.) http://oprod.net
+///////////////////////////////////////////////////
+
+//the message recieved from the user
+$msg = strtolower($_REQUEST["msg"]);
+////////////////////////////////////////////////
+//list of commands that can be executed
+///////////////////////////////////////
+//to add a new command just follow this sintax:
+//
+//case "command":
+//     echo_line("command");
+//break;
+//
+//where command is your command to be executed
+/////////////////////////////////////////////// 
+switch($msg)
+{
+  case "date":
+        echo date("D M j G:i:s T Y");
+  break;
+  case "whoami":
+        echo exec(whoami);
+  break;
+  case "who":
+       echo exec(who);
+  break;
+  case "free":
+        echo_line("free");
+  break;
+  case "procinfo":
+        echo_line("procinfo");
+  break;
+  case "meminfo":
+        echo_line("cat /proc/meminfo");
+  break;
+  case "df":
+        echo_line("df");
+  break;
+  case "ps":
+        echo_line("ps");
+  break;
+  case "uptime":
+        echo_line("uptime");
+  break;
+  case "uname":
+        echo_line("uname -a");
+  break;
+  case "mounts":
+        echo_line("cat /proc/mounts");
+  break;
+  case "user":
+        echo $_REQUEST['user'];
+  break;
+  case "netstat":
+        echo_line("netstat");
+  break;
+  case "help":
+        help();
+  break;
+  default:
+        echo "For a list of avaible commands enter help";
+  break;
+}
+
+function help(){
+echo "Avaible commands: help, date, whoami, who,
+ uname, uptime, ps, df, meminfo, procinfo, free, mounts, netstat";
+}
+function echo_line($command)
+{ 
+
+ exec($command, $line);
+
+ for($i=0; $i<count($line); $i++)
+ {
+  echo "<br>";
+  echo $line[$i];
+  
+}
+
+}
+
+?> 
+</code></pre>
 </p>
 
     <hr>
@@ -98,7 +188,13 @@
     <br>
     <h4>Tags</h4>
     <ul class="tag_box">
-    </ul>
+      <li>
+        <a href="/tags#status-ref">status <span>1</span></a>
+      </li>      <li>
+        <a href="/tags#script-ref">script <span>5</span></a>
+      </li>      <li>
+        <a href="/tags#bot.im-ref">bot.im <span>3</span></a>
+      </li>    </ul>
   </div>
 </div>
 

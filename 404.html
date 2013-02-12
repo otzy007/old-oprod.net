@@ -12,7 +12,7 @@
    newPathName = newPathName.replace(RegExp("/index.php"), "");
    newUrl += newPathName;
    if (newPathName == window.location.pathname) {
-      log.innerHTML = newUrl;
+      log.innerHTML = <h1>404: Not found</h1><br /> Go back <a href=/"http://oprod.net/">home</a>";
       document.body.appendChild(log);
    } else
       window.location.replace(newUrl);

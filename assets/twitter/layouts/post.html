@@ -11,7 +11,6 @@ layout : default
     <hr>
     <div class="pagination">
       <ul>
-        <ul>
           {{# page?previous }}
             <li class="prev"><a href="{{ url }}" title="{{ title }}">&larr; Previous</a></li>
           {{/ page?previous }}
@@ -27,7 +26,6 @@ layout : default
           {{^ page?next }}
             <li class="next disabled"><a>Next &rarr;</a>
           {{/ page?next }}
-        </ul>
       </ul>
     </div>
     <hr>

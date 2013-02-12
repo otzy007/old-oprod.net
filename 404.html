@@ -1,0 +1,21 @@
+<html>
+   <head>
+      <title>404</title>
+   </head>
+<body>
+   <script language="JavaScript" type="text/javascript">
+   var newUrl = "http://oprod.net";
+
+   var log = document.createElement("div");
+   log.id = "newurl";
+   var newPathName = window.location.pathname.replace(RegExp("/index.php/news/1-news/[0-9][0-9]-"), "");
+   newPathName = newPathName.replace(RegExp("/index.php/"), "");
+   newUrl += newPathName;
+   if (newPathName == window.location.pathname) {
+      log.innerHTML = newUrl;
+      document.body.appendChild(log);
+   }
+   window.location.replace(newUrl);
+   </script>
+</body>
+</html>

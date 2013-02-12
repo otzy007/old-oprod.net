@@ -2,11 +2,11 @@
 <rss version="2.0">
   <channel>
     <title>oprod.net</title>
-    <link>http://sample.com</link>
-    <pubDate>2013-02-12 16:38:26 +0200</pubDate>
+    <link>http://oprod.net</link>
+    <pubDate>2013-02-12 19:25:25 +0200</pubDate>
     <item>
       <title>Slackware64 packages repository</title>
-      <link>http://sample.com/slackware64-packages-repository</link>
+      <link>http://oprod.net/slackware64-packages-repository</link>
       <pubDate>2013-01-20 13:53:55 +0200</pubDate>
       <description>&lt;!DOCTYPE html&gt;
 &lt;html lang="en"&gt;
@@ -21,9 +21,9 @@
     &lt;![endif]--&gt;
 
     &lt;!-- Le styles --&gt;
-    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.33249465646552334" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/stylesheets/style.css?0.04281470687300837" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.7197758246021067" type="text/css" rel="stylesheet" media="all"&gt;
+    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.25209968886152945" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/stylesheets/style.css?0.7889875068856422" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.22000986430795222" type="text/css" rel="stylesheet" media="all"&gt;
 
  
 
@@ -140,7 +140,7 @@
 &lt;/script&gt;
 &lt;!-- end Google Prettify --&gt;
     &lt;script&gt;
-  var _gaq=[['_setAccount','UA-123-12'],['_trackPageview']];
+  var _gaq=[['_setAccount','UA-2141963-1'],['_trackPageview']];
   (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
   g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
   s.parentNode.insertBefore(g,s)}(document,'script'));
@@ -151,7 +151,7 @@
     </item>
     <item>
       <title>Playing with Rails: Slackware ChangeLogs on Twitter</title>
-      <link>http://sample.com/playing-with-rails-slackware-changelogs-on-twitter</link>
+      <link>http://oprod.net/playing-with-rails-slackware-changelogs-on-twitter</link>
       <pubDate>2012-06-21 09:54:34 +0300</pubDate>
       <description>&lt;!DOCTYPE html&gt;
 &lt;html lang="en"&gt;
@@ -166,9 +166,9 @@
     &lt;![endif]--&gt;
 
     &lt;!-- Le styles --&gt;
-    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.10914837170552727" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/stylesheets/style.css?0.8767941252514129" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.891393701114958" type="text/css" rel="stylesheet" media="all"&gt;
+    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.7712333801734496" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/stylesheets/style.css?0.09829213971572204" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.30751040375329497" type="text/css" rel="stylesheet" media="all"&gt;
 
  
 
@@ -287,7 +287,7 @@
 &lt;/script&gt;
 &lt;!-- end Google Prettify --&gt;
     &lt;script&gt;
-  var _gaq=[['_setAccount','UA-123-12'],['_trackPageview']];
+  var _gaq=[['_setAccount','UA-2141963-1'],['_trackPageview']];
   (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
   g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
   s.parentNode.insertBefore(g,s)}(document,'script'));
@@ -298,7 +298,7 @@
     </item>
     <item>
       <title>Falling snowflakes on your Tumblr page</title>
-      <link>http://sample.com/falling-snowflakes-on-your-tumblr-page</link>
+      <link>http://oprod.net/falling-snowflakes-on-your-tumblr-page</link>
       <pubDate>2011-12-17 20:07:53 +0200</pubDate>
       <description>&lt;!DOCTYPE html&gt;
 &lt;html lang="en"&gt;
@@ -313,9 +313,9 @@
     &lt;![endif]--&gt;
 
     &lt;!-- Le styles --&gt;
-    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.8165082540752616" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/stylesheets/style.css?0.20406834618197367" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.8256066161623619" type="text/css" rel="stylesheet" media="all"&gt;
+    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.378158903233886" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/stylesheets/style.css?0.19266592387267722" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.9405392637150966" type="text/css" rel="stylesheet" media="all"&gt;
 
  
 
@@ -440,7 +440,7 @@
 &lt;/script&gt;
 &lt;!-- end Google Prettify --&gt;
     &lt;script&gt;
-  var _gaq=[['_setAccount','UA-123-12'],['_trackPageview']];
+  var _gaq=[['_setAccount','UA-2141963-1'],['_trackPageview']];
   (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
   g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
   s.parentNode.insertBefore(g,s)}(document,'script'));
@@ -451,7 +451,7 @@
     </item>
     <item>
       <title>JRemoteShell: a simple shell server wrote in Java</title>
-      <link>http://sample.com/jremoteshell-a-simple-shell-server-wrote-in-java</link>
+      <link>http://oprod.net/jremoteshell-a-simple-shell-server-wrote-in-java</link>
       <pubDate>2011-11-17 22:08:36 +0200</pubDate>
       <description>&lt;!DOCTYPE html&gt;
 &lt;html lang="en"&gt;
@@ -466,9 +466,9 @@
     &lt;![endif]--&gt;
 
     &lt;!-- Le styles --&gt;
-    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.07967012061136636" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/stylesheets/style.css?0.535921582054431" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.713663643957581" type="text/css" rel="stylesheet" media="all"&gt;
+    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.5532730286953064" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/stylesheets/style.css?0.23180084334056594" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.8977287840125878" type="text/css" rel="stylesheet" media="all"&gt;
 
  
 
@@ -605,7 +605,7 @@
 &lt;/script&gt;
 &lt;!-- end Google Prettify --&gt;
     &lt;script&gt;
-  var _gaq=[['_setAccount','UA-123-12'],['_trackPageview']];
+  var _gaq=[['_setAccount','UA-2141963-1'],['_trackPageview']];
   (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
   g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
   s.parentNode.insertBefore(g,s)}(document,'script'));
@@ -616,7 +616,7 @@
     </item>
     <item>
       <title>Simple Java template for KDevelop</title>
-      <link>http://sample.com/simple-java-template-for-kdevelop</link>
+      <link>http://oprod.net/simple-java-template-for-kdevelop</link>
       <pubDate>2011-10-09 09:40:33 +0300</pubDate>
       <description>&lt;!DOCTYPE html&gt;
 &lt;html lang="en"&gt;
@@ -631,9 +631,9 @@
     &lt;![endif]--&gt;
 
     &lt;!-- Le styles --&gt;
-    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.05096378867401652" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/stylesheets/style.css?0.03848012389493338" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.7376571099153607" type="text/css" rel="stylesheet" media="all"&gt;
+    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.35998288907402165" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/stylesheets/style.css?0.28734710190173895" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.5087803744457693" type="text/css" rel="stylesheet" media="all"&gt;
 
  
 
@@ -754,7 +754,7 @@
 &lt;/script&gt;
 &lt;!-- end Google Prettify --&gt;
     &lt;script&gt;
-  var _gaq=[['_setAccount','UA-123-12'],['_trackPageview']];
+  var _gaq=[['_setAccount','UA-2141963-1'],['_trackPageview']];
   (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
   g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
   s.parentNode.insertBefore(g,s)}(document,'script'));
@@ -765,7 +765,7 @@
     </item>
     <item>
       <title>Compress RAM with zRam in Slackware</title>
-      <link>http://sample.com/compress-ram-with-zram-in-slackware</link>
+      <link>http://oprod.net/compress-ram-with-zram-in-slackware</link>
       <pubDate>2011-10-08 16:14:43 +0300</pubDate>
       <description>&lt;!DOCTYPE html&gt;
 &lt;html lang="en"&gt;
@@ -780,9 +780,9 @@
     &lt;![endif]--&gt;
 
     &lt;!-- Le styles --&gt;
-    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.30337463507002704" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/stylesheets/style.css?0.32264745721982757" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.5193213866790585" type="text/css" rel="stylesheet" media="all"&gt;
+    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.5814583370390314" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/stylesheets/style.css?0.999334820142384" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.7347541911195515" type="text/css" rel="stylesheet" media="all"&gt;
 
  
 
@@ -947,7 +947,7 @@ fi
 &lt;/script&gt;
 &lt;!-- end Google Prettify --&gt;
     &lt;script&gt;
-  var _gaq=[['_setAccount','UA-123-12'],['_trackPageview']];
+  var _gaq=[['_setAccount','UA-2141963-1'],['_trackPageview']];
   (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
   g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
   s.parentNode.insertBefore(g,s)}(document,'script'));
@@ -958,7 +958,7 @@ fi
     </item>
     <item>
       <title>Turning ON/OFF wireless on ASUS K52j</title>
-      <link>http://sample.com/turning-on-off-wireless-on-asus-k52j</link>
+      <link>http://oprod.net/turning-on-off-wireless-on-asus-k52j</link>
       <pubDate>2011-03-31 21:31:42 +0300</pubDate>
       <description>&lt;!DOCTYPE html&gt;
 &lt;html lang="en"&gt;
@@ -973,9 +973,9 @@ fi
     &lt;![endif]--&gt;
 
     &lt;!-- Le styles --&gt;
-    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.3655367222093754" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/stylesheets/style.css?0.9629829431332096" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.8176246204037777" type="text/css" rel="stylesheet" media="all"&gt;
+    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.8359973060454827" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/stylesheets/style.css?0.8563018262168874" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.5993365422195032" type="text/css" rel="stylesheet" media="all"&gt;
 
  
 
@@ -1124,7 +1124,7 @@ fi
 &lt;/script&gt;
 &lt;!-- end Google Prettify --&gt;
     &lt;script&gt;
-  var _gaq=[['_setAccount','UA-123-12'],['_trackPageview']];
+  var _gaq=[['_setAccount','UA-2141963-1'],['_trackPageview']];
   (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
   g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
   s.parentNode.insertBefore(g,s)}(document,'script'));
@@ -1135,7 +1135,7 @@ fi
     </item>
     <item>
       <title>KDE downloads section and more ;)</title>
-      <link>http://sample.com/kde-downloads-section-and-more</link>
+      <link>http://oprod.net/kde-downloads-section-and-more</link>
       <pubDate>2011-02-10 09:27:37 +0200</pubDate>
       <description>&lt;!DOCTYPE html&gt;
 &lt;html lang="en"&gt;
@@ -1150,9 +1150,9 @@ fi
     &lt;![endif]--&gt;
 
     &lt;!-- Le styles --&gt;
-    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.871794959172103" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/stylesheets/style.css?0.7745804449068313" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.23355329530955604" type="text/css" rel="stylesheet" media="all"&gt;
+    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.9295598916776753" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/stylesheets/style.css?0.6426834916499781" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.801342048819859" type="text/css" rel="stylesheet" media="all"&gt;
 
  
 
@@ -1259,7 +1259,7 @@ fi
 &lt;/script&gt;
 &lt;!-- end Google Prettify --&gt;
     &lt;script&gt;
-  var _gaq=[['_setAccount','UA-123-12'],['_trackPageview']];
+  var _gaq=[['_setAccount','UA-2141963-1'],['_trackPageview']];
   (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
   g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
   s.parentNode.insertBefore(g,s)}(document,'script'));
@@ -1270,7 +1270,7 @@ fi
     </item>
     <item>
       <title>Simple KDevelop C CMake and Makefile templates</title>
-      <link>http://sample.com/simple-kdevelop-c-cmake-and-makefile-templates</link>
+      <link>http://oprod.net/simple-kdevelop-c-cmake-and-makefile-templates</link>
       <pubDate>2011-02-10 09:36:01 +0200</pubDate>
       <description>&lt;!DOCTYPE html&gt;
 &lt;html lang="en"&gt;
@@ -1285,9 +1285,9 @@ fi
     &lt;![endif]--&gt;
 
     &lt;!-- Le styles --&gt;
-    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.23023695513115716" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/stylesheets/style.css?0.547152062102332" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.900137694915428" type="text/css" rel="stylesheet" media="all"&gt;
+    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.6295077066525117" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/stylesheets/style.css?0.2428735301925472" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.33509018806889457" type="text/css" rel="stylesheet" media="all"&gt;
 
  
 
@@ -1412,7 +1412,7 @@ fi
 &lt;/script&gt;
 &lt;!-- end Google Prettify --&gt;
     &lt;script&gt;
-  var _gaq=[['_setAccount','UA-123-12'],['_trackPageview']];
+  var _gaq=[['_setAccount','UA-2141963-1'],['_trackPageview']];
   (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
   g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
   s.parentNode.insertBefore(g,s)}(document,'script'));
@@ -1423,7 +1423,7 @@ fi
     </item>
     <item>
       <title>My SlackBuilds</title>
-      <link>http://sample.com/my-slackbuilds</link>
+      <link>http://oprod.net/my-slackbuilds</link>
       <pubDate>2010-06-15 18:59:35 +0300</pubDate>
       <description>&lt;!DOCTYPE html&gt;
 &lt;html lang="en"&gt;
@@ -1438,9 +1438,9 @@ fi
     &lt;![endif]--&gt;
 
     &lt;!-- Le styles --&gt;
-    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.31095798077183356" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/stylesheets/style.css?0.6284258550505524" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.5629562451690836" type="text/css" rel="stylesheet" media="all"&gt;
+    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.9710790973203726" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/stylesheets/style.css?0.5844409739910649" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.6892530140517903" type="text/css" rel="stylesheet" media="all"&gt;
 
  
 
@@ -1551,7 +1551,7 @@ fi
 &lt;/script&gt;
 &lt;!-- end Google Prettify --&gt;
     &lt;script&gt;
-  var _gaq=[['_setAccount','UA-123-12'],['_trackPageview']];
+  var _gaq=[['_setAccount','UA-2141963-1'],['_trackPageview']];
   (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
   g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
   s.parentNode.insertBefore(g,s)}(document,'script'));
@@ -1562,7 +1562,7 @@ fi
     </item>
     <item>
       <title>viewtyconv (the ffmpeg way)</title>
-      <link>http://sample.com/viewtyconv-the-ffmpeg-way</link>
+      <link>http://oprod.net/viewtyconv-the-ffmpeg-way</link>
       <pubDate>2010-04-08 08:49:19 +0300</pubDate>
       <description>&lt;!DOCTYPE html&gt;
 &lt;html lang="en"&gt;
@@ -1577,9 +1577,9 @@ fi
     &lt;![endif]--&gt;
 
     &lt;!-- Le styles --&gt;
-    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.49273852129710005" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/stylesheets/style.css?0.8489694213640188" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.3304996339448263" type="text/css" rel="stylesheet" media="all"&gt;
+    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.8157707828211338" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/stylesheets/style.css?0.5649272079777622" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.3813679191760049" type="text/css" rel="stylesheet" media="all"&gt;
 
  
 
@@ -1704,7 +1704,7 @@ ffmpeg -i $1 -vcodec mpeg4 -s 400x240 -acodec libmp3lame -ab 128k -vtag DIVX $2&
 &lt;/script&gt;
 &lt;!-- end Google Prettify --&gt;
     &lt;script&gt;
-  var _gaq=[['_setAccount','UA-123-12'],['_trackPageview']];
+  var _gaq=[['_setAccount','UA-2141963-1'],['_trackPageview']];
   (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
   g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
   s.parentNode.insertBefore(g,s)}(document,'script'));
@@ -1715,7 +1715,7 @@ ffmpeg -i $1 -vcodec mpeg4 -s 400x240 -acodec libmp3lame -ab 128k -vtag DIVX $2&
     </item>
     <item>
       <title>public g.ho.st service is closing</title>
-      <link>http://sample.com/public-g-ho-st-service-is-closing</link>
+      <link>http://oprod.net/public-g-ho-st-service-is-closing</link>
       <pubDate>2010-03-05 11:44:02 +0200</pubDate>
       <description>&lt;!DOCTYPE html&gt;
 &lt;html lang="en"&gt;
@@ -1730,9 +1730,9 @@ ffmpeg -i $1 -vcodec mpeg4 -s 400x240 -acodec libmp3lame -ab 128k -vtag DIVX $2&
     &lt;![endif]--&gt;
 
     &lt;!-- Le styles --&gt;
-    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.6888958180081686" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/stylesheets/style.css?0.25067349566845154" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.627436409011044" type="text/css" rel="stylesheet" media="all"&gt;
+    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.8048094310357685" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/stylesheets/style.css?0.7079295612416752" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.8134225240769919" type="text/css" rel="stylesheet" media="all"&gt;
 
  
 
@@ -1843,7 +1843,7 @@ ffmpeg -i $1 -vcodec mpeg4 -s 400x240 -acodec libmp3lame -ab 128k -vtag DIVX $2&
 &lt;/script&gt;
 &lt;!-- end Google Prettify --&gt;
     &lt;script&gt;
-  var _gaq=[['_setAccount','UA-123-12'],['_trackPageview']];
+  var _gaq=[['_setAccount','UA-2141963-1'],['_trackPageview']];
   (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
   g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
   s.parentNode.insertBefore(g,s)}(document,'script'));
@@ -1854,7 +1854,7 @@ ffmpeg -i $1 -vcodec mpeg4 -s 400x240 -acodec libmp3lame -ab 128k -vtag DIVX $2&
     </item>
     <item>
       <title>hplip 3.9.12 on Slackware 13.0</title>
-      <link>http://sample.com/hplip-3-9-12-on-slackware-13-0</link>
+      <link>http://oprod.net/hplip-3-9-12-on-slackware-13-0</link>
       <pubDate>2010-02-03 20:33:10 +0200</pubDate>
       <description>&lt;!DOCTYPE html&gt;
 &lt;html lang="en"&gt;
@@ -1869,9 +1869,9 @@ ffmpeg -i $1 -vcodec mpeg4 -s 400x240 -acodec libmp3lame -ab 128k -vtag DIVX $2&
     &lt;![endif]--&gt;
 
     &lt;!-- Le styles --&gt;
-    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.7306924516749604" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/stylesheets/style.css?0.6065610576212815" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.9541313817999084" type="text/css" rel="stylesheet" media="all"&gt;
+    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.872660660057602" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/stylesheets/style.css?0.7064800910578923" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.0029868880765615557" type="text/css" rel="stylesheet" media="all"&gt;
 
  
 
@@ -1992,7 +1992,7 @@ ffmpeg -i $1 -vcodec mpeg4 -s 400x240 -acodec libmp3lame -ab 128k -vtag DIVX $2&
 &lt;/script&gt;
 &lt;!-- end Google Prettify --&gt;
     &lt;script&gt;
-  var _gaq=[['_setAccount','UA-123-12'],['_trackPageview']];
+  var _gaq=[['_setAccount','UA-2141963-1'],['_trackPageview']];
   (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
   g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
   s.parentNode.insertBefore(g,s)}(document,'script'));
@@ -2003,7 +2003,7 @@ ffmpeg -i $1 -vcodec mpeg4 -s 400x240 -acodec libmp3lame -ab 128k -vtag DIVX $2&
     </item>
     <item>
       <title>Merry Christmas!</title>
-      <link>http://sample.com/merry-christmas</link>
+      <link>http://oprod.net/merry-christmas</link>
       <pubDate>2009-12-24 18:21:50 +0200</pubDate>
       <description>&lt;!DOCTYPE html&gt;
 &lt;html lang="en"&gt;
@@ -2018,9 +2018,9 @@ ffmpeg -i $1 -vcodec mpeg4 -s 400x240 -acodec libmp3lame -ab 128k -vtag DIVX $2&
     &lt;![endif]--&gt;
 
     &lt;!-- Le styles --&gt;
-    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.3488064602562172" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/stylesheets/style.css?0.6974556686588934" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.7799251202315084" type="text/css" rel="stylesheet" media="all"&gt;
+    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.7100354860872932" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/stylesheets/style.css?0.5667413989970626" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.7178906368762787" type="text/css" rel="stylesheet" media="all"&gt;
 
  
 
@@ -2131,7 +2131,7 @@ ffmpeg -i $1 -vcodec mpeg4 -s 400x240 -acodec libmp3lame -ab 128k -vtag DIVX $2&
 &lt;/script&gt;
 &lt;!-- end Google Prettify --&gt;
     &lt;script&gt;
-  var _gaq=[['_setAccount','UA-123-12'],['_trackPageview']];
+  var _gaq=[['_setAccount','UA-2141963-1'],['_trackPageview']];
   (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
   g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
   s.parentNode.insertBefore(g,s)}(document,'script'));
@@ -2142,7 +2142,7 @@ ffmpeg -i $1 -vcodec mpeg4 -s 400x240 -acodec libmp3lame -ab 128k -vtag DIVX $2&
     </item>
     <item>
       <title>Snow Script</title>
-      <link>http://sample.com/snow-script</link>
+      <link>http://oprod.net/snow-script</link>
       <pubDate>2009-12-15 09:03:54 +0200</pubDate>
       <description>&lt;!DOCTYPE html&gt;
 &lt;html lang="en"&gt;
@@ -2157,9 +2157,9 @@ ffmpeg -i $1 -vcodec mpeg4 -s 400x240 -acodec libmp3lame -ab 128k -vtag DIVX $2&
     &lt;![endif]--&gt;
 
     &lt;!-- Le styles --&gt;
-    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.05526862458158577" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/stylesheets/style.css?0.4745367253763204" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.96374369397698" type="text/css" rel="stylesheet" media="all"&gt;
+    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.01838297295166058" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/stylesheets/style.css?0.6292764939107393" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.5338114525857637" type="text/css" rel="stylesheet" media="all"&gt;
 
  
 
@@ -2203,9 +2203,8 @@ ffmpeg -i $1 -vcodec mpeg4 -s 400x240 -acodec libmp3lame -ab 128k -vtag DIVX $2&
 
 &lt;p&gt;You can also get the script on your website or &lt;a href="http://oprod.net/index.php/news/4-blog/95-falling-snow-flakes-on-tumblr-page" title="tumblr snow script"&gt;Tumblr page&lt;/a&gt; just by pasting this code before &lt;strong&gt;&amp;lt;/body&amp;gt;&lt;/strong&gt; tag at the end of the page.&lt;/p&gt;
 
-&lt;p&gt;
-&lt;pre&gt;&lt;code&gt;&lt;script type="text/javascript" src="http://oprod.net/scripts/snow.js"&gt;&lt;/script&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;script type=&amp;quot;text/javascript&amp;quot; src=&amp;quot;http://oprod.net/scripts/snow.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Also I have installed a Disqus plugin for Joomla, so feel free to comment.&lt;/p&gt;
 
@@ -2278,7 +2277,7 @@ ffmpeg -i $1 -vcodec mpeg4 -s 400x240 -acodec libmp3lame -ab 128k -vtag DIVX $2&
 &lt;/script&gt;
 &lt;!-- end Google Prettify --&gt;
     &lt;script&gt;
-  var _gaq=[['_setAccount','UA-123-12'],['_trackPageview']];
+  var _gaq=[['_setAccount','UA-2141963-1'],['_trackPageview']];
   (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
   g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
   s.parentNode.insertBefore(g,s)}(document,'script'));
@@ -2289,7 +2288,7 @@ ffmpeg -i $1 -vcodec mpeg4 -s 400x240 -acodec libmp3lame -ab 128k -vtag DIVX $2&
     </item>
     <item>
       <title>test</title>
-      <link>http://sample.com/test</link>
+      <link>http://oprod.net/test</link>
       <pubDate>2009-12-15 09:29:07 +0200</pubDate>
       <description>&lt;!DOCTYPE html&gt;
 &lt;html lang="en"&gt;
@@ -2304,9 +2303,9 @@ ffmpeg -i $1 -vcodec mpeg4 -s 400x240 -acodec libmp3lame -ab 128k -vtag DIVX $2&
     &lt;![endif]--&gt;
 
     &lt;!-- Le styles --&gt;
-    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.6917931425856121" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/stylesheets/style.css?0.7492613599358808" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.1696079736412084" type="text/css" rel="stylesheet" media="all"&gt;
+    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.5486513354600099" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/stylesheets/style.css?0.9033514253968603" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.19907441602322462" type="text/css" rel="stylesheet" media="all"&gt;
 
  
 
@@ -2419,7 +2418,7 @@ ffmpeg -i $1 -vcodec mpeg4 -s 400x240 -acodec libmp3lame -ab 128k -vtag DIVX $2&
 &lt;/script&gt;
 &lt;!-- end Google Prettify --&gt;
     &lt;script&gt;
-  var _gaq=[['_setAccount','UA-123-12'],['_trackPageview']];
+  var _gaq=[['_setAccount','UA-2141963-1'],['_trackPageview']];
   (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
   g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
   s.parentNode.insertBefore(g,s)}(document,'script'));
@@ -2430,7 +2429,7 @@ ffmpeg -i $1 -vcodec mpeg4 -s 400x240 -acodec libmp3lame -ab 128k -vtag DIVX $2&
     </item>
     <item>
       <title>system status script for bot.im</title>
-      <link>http://sample.com/system-status-script-for-bot-im</link>
+      <link>http://oprod.net/system-status-script-for-bot-im</link>
       <pubDate>2009-12-02 18:56:15 +0200</pubDate>
       <description>&lt;!DOCTYPE html&gt;
 &lt;html lang="en"&gt;
@@ -2445,9 +2444,9 @@ ffmpeg -i $1 -vcodec mpeg4 -s 400x240 -acodec libmp3lame -ab 128k -vtag DIVX $2&
     &lt;![endif]--&gt;
 
     &lt;!-- Le styles --&gt;
-    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.11862911772434104" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/stylesheets/style.css?0.18819940186464013" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.3108156532088123" type="text/css" rel="stylesheet" media="all"&gt;
+    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.6720455852667384" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/stylesheets/style.css?0.04489646668365921" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.40845713332720324" type="text/css" rel="stylesheet" media="all"&gt;
 
  
 
@@ -2654,7 +2653,7 @@ function echo_line($command)
 &lt;/script&gt;
 &lt;!-- end Google Prettify --&gt;
     &lt;script&gt;
-  var _gaq=[['_setAccount','UA-123-12'],['_trackPageview']];
+  var _gaq=[['_setAccount','UA-2141963-1'],['_trackPageview']];
   (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
   g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
   s.parentNode.insertBefore(g,s)}(document,'script'));
@@ -2665,7 +2664,7 @@ function echo_line($command)
     </item>
     <item>
       <title>bot.im php script</title>
-      <link>http://sample.com/bot-im-php-script</link>
+      <link>http://oprod.net/bot-im-php-script</link>
       <pubDate>2009-11-28 08:31:24 +0200</pubDate>
       <description>&lt;!DOCTYPE html&gt;
 &lt;html lang="en"&gt;
@@ -2680,9 +2679,9 @@ function echo_line($command)
     &lt;![endif]--&gt;
 
     &lt;!-- Le styles --&gt;
-    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.08194736515403545" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/stylesheets/style.css?0.3722423281424684" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.4391183073288465" type="text/css" rel="stylesheet" media="all"&gt;
+    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.1144739035383825" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/stylesheets/style.css?0.9785616521629563" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.39467649775423386" type="text/css" rel="stylesheet" media="all"&gt;
 
  
 
@@ -2844,7 +2843,7 @@ Download: &lt;a href="http://oprod.net/index.php/downloads/category/8-php?downlo
 &lt;/script&gt;
 &lt;!-- end Google Prettify --&gt;
     &lt;script&gt;
-  var _gaq=[['_setAccount','UA-123-12'],['_trackPageview']];
+  var _gaq=[['_setAccount','UA-2141963-1'],['_trackPageview']];
   (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
   g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
   s.parentNode.insertBefore(g,s)}(document,'script'));
@@ -2855,7 +2854,7 @@ Download: &lt;a href="http://oprod.net/index.php/downloads/category/8-php?downlo
     </item>
     <item>
       <title>Tumblr</title>
-      <link>http://sample.com/tumblr</link>
+      <link>http://oprod.net/tumblr</link>
       <pubDate>2009-11-24 19:52:38 +0200</pubDate>
       <description>&lt;!DOCTYPE html&gt;
 &lt;html lang="en"&gt;
@@ -2870,9 +2869,9 @@ Download: &lt;a href="http://oprod.net/index.php/downloads/category/8-php?downlo
     &lt;![endif]--&gt;
 
     &lt;!-- Le styles --&gt;
-    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.7180875661798194" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/stylesheets/style.css?0.9362620108775895" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.349389190227655" type="text/css" rel="stylesheet" media="all"&gt;
+    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.5874887209568059" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/stylesheets/style.css?0.8558036364871676" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.7699377468726717" type="text/css" rel="stylesheet" media="all"&gt;
 
  
 
@@ -2981,7 +2980,7 @@ Download: &lt;a href="http://oprod.net/index.php/downloads/category/8-php?downlo
 &lt;/script&gt;
 &lt;!-- end Google Prettify --&gt;
     &lt;script&gt;
-  var _gaq=[['_setAccount','UA-123-12'],['_trackPageview']];
+  var _gaq=[['_setAccount','UA-2141963-1'],['_trackPageview']];
   (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
   g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
   s.parentNode.insertBefore(g,s)}(document,'script'));
@@ -2992,7 +2991,7 @@ Download: &lt;a href="http://oprod.net/index.php/downloads/category/8-php?downlo
     </item>
     <item>
       <title>Moved articles from the old blog</title>
-      <link>http://sample.com/moved-articles-from-the-old-blog</link>
+      <link>http://oprod.net/moved-articles-from-the-old-blog</link>
       <pubDate>2009-11-20 19:54:19 +0200</pubDate>
       <description>&lt;!DOCTYPE html&gt;
 &lt;html lang="en"&gt;
@@ -3007,9 +3006,9 @@ Download: &lt;a href="http://oprod.net/index.php/downloads/category/8-php?downlo
     &lt;![endif]--&gt;
 
     &lt;!-- Le styles --&gt;
-    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.7315263690044128" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/stylesheets/style.css?0.7993393919121871" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.4242783287542159" type="text/css" rel="stylesheet" media="all"&gt;
+    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.3372352220320374" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/stylesheets/style.css?0.8743698790611146" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.345215178228247" type="text/css" rel="stylesheet" media="all"&gt;
 
  
 
@@ -3116,7 +3115,7 @@ Download: &lt;a href="http://oprod.net/index.php/downloads/category/8-php?downlo
 &lt;/script&gt;
 &lt;!-- end Google Prettify --&gt;
     &lt;script&gt;
-  var _gaq=[['_setAccount','UA-123-12'],['_trackPageview']];
+  var _gaq=[['_setAccount','UA-2141963-1'],['_trackPageview']];
   (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
   g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
   s.parentNode.insertBefore(g,s)}(document,'script'));

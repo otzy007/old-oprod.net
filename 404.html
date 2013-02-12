@@ -14,8 +14,8 @@
    if (newPathName == window.location.pathname) {
       log.innerHTML = newUrl;
       document.body.appendChild(log);
-   }
-   window.location.replace(newUrl);
+   } else
+      window.location.replace(newUrl);
    </script>
 </body>
 </html>

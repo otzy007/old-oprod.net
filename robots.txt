@@ -1,0 +1,3 @@
+User-agent: *
+Sitemap: http://oprod.net/sitemap.xml
+Disallow: */undefined/

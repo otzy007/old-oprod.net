@@ -8,8 +8,7 @@
 
    var log = document.createElement("div");
    log.id = "newurl";
-   var newPathName = window.location.pathname.replace(RegExp("/index.php/news/.*/[0-9][0-9]-"), "");
-   newPathName += "/";
+   var newPathName = window.location.pathname.replace(RegExp("/index.php/news/.*/[0-9][0-9]-"), "/");
    newPathName = newPathName.replace(RegExp("/index.php"), "");
    newUrl += newPathName;
    if (newPathName == window.location.pathname) {

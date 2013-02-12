@@ -11,9 +11,9 @@
     <![endif]-->
 
     <!-- Le styles -->
-    <link href="/assets/twitter/stylesheets/bootstrap.min.css?0.6054002726522025" type="text/css" rel="stylesheet" media="all">
-<link href="/assets/twitter/stylesheets/style.css?0.8601709345418344" type="text/css" rel="stylesheet" media="all">
-<link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.23764435059015088" type="text/css" rel="stylesheet" media="all">
+    <link href="/assets/twitter/stylesheets/bootstrap.min.css?0.13845937776193395" type="text/css" rel="stylesheet" media="all">
+<link href="/assets/twitter/stylesheets/style.css?0.2712425333336972" type="text/css" rel="stylesheet" media="all">
+<link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.8820298926926745" type="text/css" rel="stylesheet" media="all">
 
  
 
@@ -59,14 +59,13 @@
 
 <p>This file will contain the hotkey and the path to the script which is setting the wireless ON/OFF.</p>
 
-<p>The /etc/acpi/events/etc/acpi/events/asus-wireless-switch content will be:
-
-</p>
+<p>The /etc/acpi/events/etc/acpi/events/asus-wireless-switch content will be:</p>
 
 <pre><code>#Enable the Fn-F2 button to turn on/off wireless
 #/etc/acpi/events/default
 event=hotkey ATKD 0000005d
-action=/etc/acpi/asus-wireless-switch.sh</code></pre>
+action=/etc/acpi/asus-wireless-switch.sh
+</code></pre>
 
 <p>Then create another one: /etc/acpi/asus-wireless-switch.sh</p>
 
@@ -77,16 +76,15 @@ action=/etc/acpi/asus-wireless-switch.sh</code></pre>
 #!/bin/sh
 WLANSTATUS=`cat /sys/class/ieee80211/phy0/rfkill*/state`
 
-test -z $WLANSTATUS && exit 1
+test -z $WLANSTATUS &amp;&amp; exit 1
 
 if [ $WLANSTATUS = 0 ]; then
-        echo 0 > /sys/devices/platform/asus_laptop/wlan
-        echo 1 > /sys/class/ieee80211/phy0/rfkill*/state
+        echo 0 &gt; /sys/devices/platform/asus_laptop/wlan
+        echo 1 &gt; /sys/class/ieee80211/phy0/rfkill*/state
 elif [ $WLANSTATUS = 1 ]; then
-        echo 1 > /sys/devices/platform/asus_laptop/wlan
-        echo 0 > /sys/class/ieee80211/phy0/rfkill*/state
+        echo 1 &gt; /sys/devices/platform/asus_laptop/wlan
+        echo 0 &gt; /sys/class/ieee80211/phy0/rfkill*/state
 fi
-
 </code></pre>
 
     <hr>

@@ -12,9 +12,9 @@
     <![endif]-->
 
     <!-- Le styles -->
-    <link href="/assets/twitter/stylesheets/bootstrap.min.css?0.17067676948460775" type="text/css" rel="stylesheet" media="all">
-<link href="/assets/twitter/stylesheets/style.css?0.304127869062764" type="text/css" rel="stylesheet" media="all">
-<link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.17071502889829027" type="text/css" rel="stylesheet" media="all">
+    <link href="/assets/twitter/stylesheets/bootstrap.min.css?0.7974687552265799" type="text/css" rel="stylesheet" media="all">
+<link href="/assets/twitter/stylesheets/style.css?0.5289639273200095" type="text/css" rel="stylesheet" media="all">
+<link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.3150990154014147" type="text/css" rel="stylesheet" media="all">
 
  
 
@@ -206,36 +206,33 @@ stop() {
 
 <p>This file will contain the hotkey and the path to the script which is setting the wireless ON/OFF.</p>
 
-<p>The /etc/acpi/events/etc/acpi/events/asus-wireless-switch content will be:
-
-</p>
+<p>The /etc/acpi/events/etc/acpi/events/asus-wireless-switch content will be:</p>
 
 <pre><code>#Enable the Fn-F2 button to turn on/off wireless
 #/etc/acpi/events/default
 event=hotkey ATKD 0000005d
-action=/etc/acpi/asus-wireless-switch.sh</code></pre>
+action=/etc/acpi/asus-wireless-switch.sh
+</code></pre>
 
 <p>Then create another one: /etc/acpi/asus-wireless-switch.sh</p>
 
 <p>With this script in it:</p>
 
-<p><pre><code>#/etc/acpi/asus-wireless-switch.sh</p>
+<pre><code>#/etc/acpi/asus-wireless-switch.sh
+#based on http://ubuntuforums.org/archive/index.php/t-1460790.html
+#!/bin/sh
+WLANSTATUS=`cat /sys/class/ieee80211/phy0/rfkill*/state`
 
-<h1 id="toc_0">based on <a href="http://ubuntuforums.org/archive/index.php/t-1460790.html">http://ubuntuforums.org/archive/index.php/t-1460790.html</a></h1>
+test -z $WLANSTATUS &amp;&amp; exit 1
 
-<h1 id="toc_1">!/bin/sh</h1>
-
-<p>WLANSTATUS=<code>cat /sys/class/ieee80211/phy0/rfkill*/state</code></p>
-
-<p>test -z $WLANSTATUS &amp;&amp; exit 1</p>
-
-<p>if [ $WLANSTATUS = 0 ]; then
-        echo 0 &gt; /sys/devices/platform/asus<em>laptop/wlan
+if [ $WLANSTATUS = 0 ]; then
+        echo 0 &gt; /sys/devices/platform/asus_laptop/wlan
         echo 1 &gt; /sys/class/ieee80211/phy0/rfkill*/state
 elif [ $WLANSTATUS = 1 ]; then
-        echo 1 &gt; /sys/devices/platform/asus</em>laptop/wlan
+        echo 1 &gt; /sys/devices/platform/asus_laptop/wlan
         echo 0 &gt; /sys/class/ieee80211/phy0/rfkill*/state
-fi</p>
+fi
+</code></pre>
 
 
   <div class="more">

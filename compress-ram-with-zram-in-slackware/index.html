@@ -11,9 +11,9 @@
     <![endif]-->
 
     <!-- Le styles -->
-    <link href="/assets/twitter/stylesheets/bootstrap.min.css?0.4313049028637044" type="text/css" rel="stylesheet" media="all">
-<link href="/assets/twitter/stylesheets/style.css?0.19031398643015718" type="text/css" rel="stylesheet" media="all">
-<link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.5492529129801186" type="text/css" rel="stylesheet" media="all">
+    <link href="/assets/twitter/stylesheets/bootstrap.min.css?0.3789556237755982" type="text/css" rel="stylesheet" media="all">
+<link href="/assets/twitter/stylesheets/style.css?0.858482552447489" type="text/css" rel="stylesheet" media="all">
+<link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.9890034539689099" type="text/css" rel="stylesheet" media="all">
 
  
 
@@ -61,7 +61,7 @@
 
 <p>Create the file /etc/rc.d/rc.zram and put this script into it:</p>
 
-<p><pre><code>#!/bin/bash
+<pre><code>#!/bin/bash
 # 
 # /etc/rc.d/rc.zram
 # Script to start zRam (Virtual Swap Compressed in RAM)
@@ -96,11 +96,12 @@ case "$1" in
   *)
   echo "Usage: $0 (start|stop|restart)"
 esac
-</code></pre></p>
+</code></pre>
 
 <p><strong>Remember to make it executable:</strong> chmod +x /etc/rc.d/rc.zram</p>
 
 <p>Also copy this lines to /etc/rc.d/rc.local or /etc/rc.d/rc.M</p>
+
 <p>
 <pre><code># Start zram swap space
 if [ -x /etc/rc.d/rc.zram ]

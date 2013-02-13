@@ -3,7 +3,7 @@
   <channel>
     <title>oprod.net</title>
     <link>http://oprod.net</link>
-    <pubDate>2013-02-13 12:50:11 +0200</pubDate>
+    <pubDate>2013-02-13 13:26:19 +0200</pubDate>
     <item>
       <title>Migrating from Joomla to ruhoh</title>
       <link>http://oprod.net/migrating-from-joomla-to-ruhoh</link>
@@ -14,6 +14,7 @@
     &lt;meta charset="utf-8"&gt;
     &lt;title&gt;Migrating from Joomla to ruhoh&lt;/title&gt;
     &lt;meta name="author" content="Andrei G"&gt;
+   &lt;link href="http://feeds.feedburner.com/oprod/news" rel="alternate" type="application/rss+xml" title="RSS 2.0" /&gt;
 
     &lt;!-- Le HTML5 shim, for IE6-8 support of HTML elements --&gt;
     &lt;!--[if lt IE 9]&gt;
@@ -21,9 +22,9 @@
     &lt;![endif]--&gt;
 
     &lt;!-- Le styles --&gt;
-    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.23725807917349406" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/stylesheets/style.css?0.8712433263171122" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.6063070026546993" type="text/css" rel="stylesheet" media="all"&gt;
+    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.7858688843542605" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/stylesheets/style.css?0.39032079890290017" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.6528339579258977" type="text/css" rel="stylesheet" media="all"&gt;
 
  
 
@@ -158,6 +159,7 @@ page and some minor design things.&lt;/p&gt;
     &lt;meta charset="utf-8"&gt;
     &lt;title&gt;Slackware64 packages repository&lt;/title&gt;
     &lt;meta name="author" content="Andrei G"&gt;
+   &lt;link href="http://feeds.feedburner.com/oprod/news" rel="alternate" type="application/rss+xml" title="RSS 2.0" /&gt;
 
     &lt;!-- Le HTML5 shim, for IE6-8 support of HTML elements --&gt;
     &lt;!--[if lt IE 9]&gt;
@@ -165,9 +167,9 @@ page and some minor design things.&lt;/p&gt;
     &lt;![endif]--&gt;
 
     &lt;!-- Le styles --&gt;
-    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.44544818601113434" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/stylesheets/style.css?0.49544895497951513" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.5252763786541569" type="text/css" rel="stylesheet" media="all"&gt;
+    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.9055130674631644" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/stylesheets/style.css?0.8594291155796838" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.6460748113122525" type="text/css" rel="stylesheet" media="all"&gt;
 
  
 
@@ -303,6 +305,7 @@ page and some minor design things.&lt;/p&gt;
     &lt;meta charset="utf-8"&gt;
     &lt;title&gt;Playing with Rails: Slackware ChangeLogs on Twitter&lt;/title&gt;
     &lt;meta name="author" content="Andrei G"&gt;
+   &lt;link href="http://feeds.feedburner.com/oprod/news" rel="alternate" type="application/rss+xml" title="RSS 2.0" /&gt;
 
     &lt;!-- Le HTML5 shim, for IE6-8 support of HTML elements --&gt;
     &lt;!--[if lt IE 9]&gt;
@@ -310,9 +313,9 @@ page and some minor design things.&lt;/p&gt;
     &lt;![endif]--&gt;
 
     &lt;!-- Le styles --&gt;
-    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.570303347903914" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/stylesheets/style.css?0.9920467994029136" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.1222562881351148" type="text/css" rel="stylesheet" media="all"&gt;
+    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.2242777107790136" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/stylesheets/style.css?0.8483485092502322" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.10056806314611533" type="text/css" rel="stylesheet" media="all"&gt;
 
  
 
@@ -450,6 +453,7 @@ page and some minor design things.&lt;/p&gt;
     &lt;meta charset="utf-8"&gt;
     &lt;title&gt;Falling snowflakes on your Tumblr page&lt;/title&gt;
     &lt;meta name="author" content="Andrei G"&gt;
+   &lt;link href="http://feeds.feedburner.com/oprod/news" rel="alternate" type="application/rss+xml" title="RSS 2.0" /&gt;
 
     &lt;!-- Le HTML5 shim, for IE6-8 support of HTML elements --&gt;
     &lt;!--[if lt IE 9]&gt;
@@ -457,9 +461,9 @@ page and some minor design things.&lt;/p&gt;
     &lt;![endif]--&gt;
 
     &lt;!-- Le styles --&gt;
-    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.5063331410379247" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/stylesheets/style.css?0.5062706667931131" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.6877970381238241" type="text/css" rel="stylesheet" media="all"&gt;
+    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.03325289801761466" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/stylesheets/style.css?0.6376097801334041" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.03326942053532045" type="text/css" rel="stylesheet" media="all"&gt;
 
  
 
@@ -603,6 +607,7 @@ page and some minor design things.&lt;/p&gt;
     &lt;meta charset="utf-8"&gt;
     &lt;title&gt;JRemoteShell: a simple shell server wrote in Java&lt;/title&gt;
     &lt;meta name="author" content="Andrei G"&gt;
+   &lt;link href="http://feeds.feedburner.com/oprod/news" rel="alternate" type="application/rss+xml" title="RSS 2.0" /&gt;
 
     &lt;!-- Le HTML5 shim, for IE6-8 support of HTML elements --&gt;
     &lt;!--[if lt IE 9]&gt;
@@ -610,9 +615,9 @@ page and some minor design things.&lt;/p&gt;
     &lt;![endif]--&gt;
 
     &lt;!-- Le styles --&gt;
-    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.6954648262567402" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/stylesheets/style.css?0.15653391030078256" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.9118791482192553" type="text/css" rel="stylesheet" media="all"&gt;
+    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.3275439034936609" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/stylesheets/style.css?0.21448755134238218" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.46708296547140316" type="text/css" rel="stylesheet" media="all"&gt;
 
  
 
@@ -768,6 +773,7 @@ page and some minor design things.&lt;/p&gt;
     &lt;meta charset="utf-8"&gt;
     &lt;title&gt;Simple Java template for KDevelop&lt;/title&gt;
     &lt;meta name="author" content="Andrei G"&gt;
+   &lt;link href="http://feeds.feedburner.com/oprod/news" rel="alternate" type="application/rss+xml" title="RSS 2.0" /&gt;
 
     &lt;!-- Le HTML5 shim, for IE6-8 support of HTML elements --&gt;
     &lt;!--[if lt IE 9]&gt;
@@ -775,9 +781,9 @@ page and some minor design things.&lt;/p&gt;
     &lt;![endif]--&gt;
 
     &lt;!-- Le styles --&gt;
-    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.41178854903621276" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/stylesheets/style.css?0.07536127336049736" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.45659930686549066" type="text/css" rel="stylesheet" media="all"&gt;
+    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.5030593086421485" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/stylesheets/style.css?0.4476202092161522" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.687090679297614" type="text/css" rel="stylesheet" media="all"&gt;
 
  
 
@@ -917,6 +923,7 @@ page and some minor design things.&lt;/p&gt;
     &lt;meta charset="utf-8"&gt;
     &lt;title&gt;Compress RAM with zRam in Slackware&lt;/title&gt;
     &lt;meta name="author" content="Andrei G"&gt;
+   &lt;link href="http://feeds.feedburner.com/oprod/news" rel="alternate" type="application/rss+xml" title="RSS 2.0" /&gt;
 
     &lt;!-- Le HTML5 shim, for IE6-8 support of HTML elements --&gt;
     &lt;!--[if lt IE 9]&gt;
@@ -924,9 +931,9 @@ page and some minor design things.&lt;/p&gt;
     &lt;![endif]--&gt;
 
     &lt;!-- Le styles --&gt;
-    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.04734859462475316" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/stylesheets/style.css?0.19958854887013888" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.6405687706319978" type="text/css" rel="stylesheet" media="all"&gt;
+    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.6645509954896023" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/stylesheets/style.css?0.05131269491152057" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.2960754497967113" type="text/css" rel="stylesheet" media="all"&gt;
 
  
 
@@ -1110,6 +1117,7 @@ fi
     &lt;meta charset="utf-8"&gt;
     &lt;title&gt;Turning ON/OFF wireless on ASUS K52j&lt;/title&gt;
     &lt;meta name="author" content="Andrei G"&gt;
+   &lt;link href="http://feeds.feedburner.com/oprod/news" rel="alternate" type="application/rss+xml" title="RSS 2.0" /&gt;
 
     &lt;!-- Le HTML5 shim, for IE6-8 support of HTML elements --&gt;
     &lt;!--[if lt IE 9]&gt;
@@ -1117,9 +1125,9 @@ fi
     &lt;![endif]--&gt;
 
     &lt;!-- Le styles --&gt;
-    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.8374762831102162" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/stylesheets/style.css?0.014499172618846368" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.8214878560366954" type="text/css" rel="stylesheet" media="all"&gt;
+    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.6831305472099256" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/stylesheets/style.css?0.3645374676206209" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.8113542673727359" type="text/css" rel="stylesheet" media="all"&gt;
 
  
 
@@ -1287,6 +1295,7 @@ fi
     &lt;meta charset="utf-8"&gt;
     &lt;title&gt;KDE downloads section and more ;)&lt;/title&gt;
     &lt;meta name="author" content="Andrei G"&gt;
+   &lt;link href="http://feeds.feedburner.com/oprod/news" rel="alternate" type="application/rss+xml" title="RSS 2.0" /&gt;
 
     &lt;!-- Le HTML5 shim, for IE6-8 support of HTML elements --&gt;
     &lt;!--[if lt IE 9]&gt;
@@ -1294,9 +1303,9 @@ fi
     &lt;![endif]--&gt;
 
     &lt;!-- Le styles --&gt;
-    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.9779863181738401" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/stylesheets/style.css?0.7396836155065357" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.7396933389249415" type="text/css" rel="stylesheet" media="all"&gt;
+    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.7425382797324253" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/stylesheets/style.css?0.7145312680600604" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.17380464556351127" type="text/css" rel="stylesheet" media="all"&gt;
 
  
 
@@ -1422,6 +1431,7 @@ fi
     &lt;meta charset="utf-8"&gt;
     &lt;title&gt;Simple KDevelop C CMake and Makefile templates&lt;/title&gt;
     &lt;meta name="author" content="Andrei G"&gt;
+   &lt;link href="http://feeds.feedburner.com/oprod/news" rel="alternate" type="application/rss+xml" title="RSS 2.0" /&gt;
 
     &lt;!-- Le HTML5 shim, for IE6-8 support of HTML elements --&gt;
     &lt;!--[if lt IE 9]&gt;
@@ -1429,9 +1439,9 @@ fi
     &lt;![endif]--&gt;
 
     &lt;!-- Le styles --&gt;
-    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.19357727188809304" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/stylesheets/style.css?0.1743136576069031" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.8386483265101855" type="text/css" rel="stylesheet" media="all"&gt;
+    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.6289159098455972" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/stylesheets/style.css?0.1455954038072611" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.3399266859381239" type="text/css" rel="stylesheet" media="all"&gt;
 
  
 
@@ -1575,6 +1585,7 @@ fi
     &lt;meta charset="utf-8"&gt;
     &lt;title&gt;My SlackBuilds&lt;/title&gt;
     &lt;meta name="author" content="Andrei G"&gt;
+   &lt;link href="http://feeds.feedburner.com/oprod/news" rel="alternate" type="application/rss+xml" title="RSS 2.0" /&gt;
 
     &lt;!-- Le HTML5 shim, for IE6-8 support of HTML elements --&gt;
     &lt;!--[if lt IE 9]&gt;
@@ -1582,9 +1593,9 @@ fi
     &lt;![endif]--&gt;
 
     &lt;!-- Le styles --&gt;
-    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.668295425080802" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/stylesheets/style.css?0.5038769525387412" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.8319897481834531" type="text/css" rel="stylesheet" media="all"&gt;
+    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.5281465155939382" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/stylesheets/style.css?0.3202000886090002" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.5105412012264744" type="text/css" rel="stylesheet" media="all"&gt;
 
  
 
@@ -1714,6 +1725,7 @@ fi
     &lt;meta charset="utf-8"&gt;
     &lt;title&gt;viewtyconv (the ffmpeg way)&lt;/title&gt;
     &lt;meta name="author" content="Andrei G"&gt;
+   &lt;link href="http://feeds.feedburner.com/oprod/news" rel="alternate" type="application/rss+xml" title="RSS 2.0" /&gt;
 
     &lt;!-- Le HTML5 shim, for IE6-8 support of HTML elements --&gt;
     &lt;!--[if lt IE 9]&gt;
@@ -1721,9 +1733,9 @@ fi
     &lt;![endif]--&gt;
 
     &lt;!-- Le styles --&gt;
-    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.8827015411018354" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/stylesheets/style.css?0.806721868654654" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.4423764031043188" type="text/css" rel="stylesheet" media="all"&gt;
+    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.9028194562036662" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/stylesheets/style.css?0.432783925546103" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.4744615798189834" type="text/css" rel="stylesheet" media="all"&gt;
 
  
 
@@ -1867,6 +1879,7 @@ ffmpeg -i $1 -vcodec mpeg4 -s 400x240 -acodec libmp3lame -ab 128k -vtag DIVX $2&
     &lt;meta charset="utf-8"&gt;
     &lt;title&gt;public g.ho.st service is closing&lt;/title&gt;
     &lt;meta name="author" content="Andrei G"&gt;
+   &lt;link href="http://feeds.feedburner.com/oprod/news" rel="alternate" type="application/rss+xml" title="RSS 2.0" /&gt;
 
     &lt;!-- Le HTML5 shim, for IE6-8 support of HTML elements --&gt;
     &lt;!--[if lt IE 9]&gt;
@@ -1874,9 +1887,9 @@ ffmpeg -i $1 -vcodec mpeg4 -s 400x240 -acodec libmp3lame -ab 128k -vtag DIVX $2&
     &lt;![endif]--&gt;
 
     &lt;!-- Le styles --&gt;
-    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.7341188863118023" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/stylesheets/style.css?0.13600122002437798" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.44156363230561646" type="text/css" rel="stylesheet" media="all"&gt;
+    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.8512623186015107" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/stylesheets/style.css?0.3221786646511683" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.31313207995865366" type="text/css" rel="stylesheet" media="all"&gt;
 
  
 
@@ -2006,6 +2019,7 @@ ffmpeg -i $1 -vcodec mpeg4 -s 400x240 -acodec libmp3lame -ab 128k -vtag DIVX $2&
     &lt;meta charset="utf-8"&gt;
     &lt;title&gt;hplip 3.9.12 on Slackware 13.0&lt;/title&gt;
     &lt;meta name="author" content="Andrei G"&gt;
+   &lt;link href="http://feeds.feedburner.com/oprod/news" rel="alternate" type="application/rss+xml" title="RSS 2.0" /&gt;
 
     &lt;!-- Le HTML5 shim, for IE6-8 support of HTML elements --&gt;
     &lt;!--[if lt IE 9]&gt;
@@ -2013,9 +2027,9 @@ ffmpeg -i $1 -vcodec mpeg4 -s 400x240 -acodec libmp3lame -ab 128k -vtag DIVX $2&
     &lt;![endif]--&gt;
 
     &lt;!-- Le styles --&gt;
-    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.030875636083699698" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/stylesheets/style.css?0.04217606608643465" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.07551467938847656" type="text/css" rel="stylesheet" media="all"&gt;
+    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.08046190774431183" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/stylesheets/style.css?0.6338247399274242" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.1859173112563407" type="text/css" rel="stylesheet" media="all"&gt;
 
  
 
@@ -2155,6 +2169,7 @@ ffmpeg -i $1 -vcodec mpeg4 -s 400x240 -acodec libmp3lame -ab 128k -vtag DIVX $2&
     &lt;meta charset="utf-8"&gt;
     &lt;title&gt;Merry Christmas!&lt;/title&gt;
     &lt;meta name="author" content="Andrei G"&gt;
+   &lt;link href="http://feeds.feedburner.com/oprod/news" rel="alternate" type="application/rss+xml" title="RSS 2.0" /&gt;
 
     &lt;!-- Le HTML5 shim, for IE6-8 support of HTML elements --&gt;
     &lt;!--[if lt IE 9]&gt;
@@ -2162,9 +2177,9 @@ ffmpeg -i $1 -vcodec mpeg4 -s 400x240 -acodec libmp3lame -ab 128k -vtag DIVX $2&
     &lt;![endif]--&gt;
 
     &lt;!-- Le styles --&gt;
-    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.49353885375701667" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/stylesheets/style.css?0.8963772889982755" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.9063756563784746" type="text/css" rel="stylesheet" media="all"&gt;
+    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.20773979853120428" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/stylesheets/style.css?0.7338050418788048" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.4004264203326463" type="text/css" rel="stylesheet" media="all"&gt;
 
  
 
@@ -2294,6 +2309,7 @@ ffmpeg -i $1 -vcodec mpeg4 -s 400x240 -acodec libmp3lame -ab 128k -vtag DIVX $2&
     &lt;meta charset="utf-8"&gt;
     &lt;title&gt;test&lt;/title&gt;
     &lt;meta name="author" content="Andrei G"&gt;
+   &lt;link href="http://feeds.feedburner.com/oprod/news" rel="alternate" type="application/rss+xml" title="RSS 2.0" /&gt;
 
     &lt;!-- Le HTML5 shim, for IE6-8 support of HTML elements --&gt;
     &lt;!--[if lt IE 9]&gt;
@@ -2301,9 +2317,9 @@ ffmpeg -i $1 -vcodec mpeg4 -s 400x240 -acodec libmp3lame -ab 128k -vtag DIVX $2&
     &lt;![endif]--&gt;
 
     &lt;!-- Le styles --&gt;
-    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.11190181158840762" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/stylesheets/style.css?0.15250396307679226" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.40475112708337224" type="text/css" rel="stylesheet" media="all"&gt;
+    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.2480012662048886" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/stylesheets/style.css?0.11142692001464916" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.519266120159935" type="text/css" rel="stylesheet" media="all"&gt;
 
  
 
@@ -2435,6 +2451,7 @@ ffmpeg -i $1 -vcodec mpeg4 -s 400x240 -acodec libmp3lame -ab 128k -vtag DIVX $2&
     &lt;meta charset="utf-8"&gt;
     &lt;title&gt;Snow Script&lt;/title&gt;
     &lt;meta name="author" content="Andrei G"&gt;
+   &lt;link href="http://feeds.feedburner.com/oprod/news" rel="alternate" type="application/rss+xml" title="RSS 2.0" /&gt;
 
     &lt;!-- Le HTML5 shim, for IE6-8 support of HTML elements --&gt;
     &lt;!--[if lt IE 9]&gt;
@@ -2442,9 +2459,9 @@ ffmpeg -i $1 -vcodec mpeg4 -s 400x240 -acodec libmp3lame -ab 128k -vtag DIVX $2&
     &lt;![endif]--&gt;
 
     &lt;!-- Le styles --&gt;
-    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.7318548018645162" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/stylesheets/style.css?0.40374155385493304" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.5218680928187679" type="text/css" rel="stylesheet" media="all"&gt;
+    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.03798437699265422" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/stylesheets/style.css?0.05189071513940102" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.8944230350302169" type="text/css" rel="stylesheet" media="all"&gt;
 
  
 
@@ -2581,6 +2598,7 @@ ffmpeg -i $1 -vcodec mpeg4 -s 400x240 -acodec libmp3lame -ab 128k -vtag DIVX $2&
     &lt;meta charset="utf-8"&gt;
     &lt;title&gt;system status script for bot.im&lt;/title&gt;
     &lt;meta name="author" content="Andrei G"&gt;
+   &lt;link href="http://feeds.feedburner.com/oprod/news" rel="alternate" type="application/rss+xml" title="RSS 2.0" /&gt;
 
     &lt;!-- Le HTML5 shim, for IE6-8 support of HTML elements --&gt;
     &lt;!--[if lt IE 9]&gt;
@@ -2588,9 +2606,9 @@ ffmpeg -i $1 -vcodec mpeg4 -s 400x240 -acodec libmp3lame -ab 128k -vtag DIVX $2&
     &lt;![endif]--&gt;
 
     &lt;!-- Le styles --&gt;
-    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.4555230491900879" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/stylesheets/style.css?0.07454900174501045" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.3603444535065009" type="text/css" rel="stylesheet" media="all"&gt;
+    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.3103109747766084" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/stylesheets/style.css?0.4833427035325544" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.16768573222234306" type="text/css" rel="stylesheet" media="all"&gt;
 
  
 
@@ -2816,6 +2834,7 @@ function echo_line($command)
     &lt;meta charset="utf-8"&gt;
     &lt;title&gt;bot.im php script&lt;/title&gt;
     &lt;meta name="author" content="Andrei G"&gt;
+   &lt;link href="http://feeds.feedburner.com/oprod/news" rel="alternate" type="application/rss+xml" title="RSS 2.0" /&gt;
 
     &lt;!-- Le HTML5 shim, for IE6-8 support of HTML elements --&gt;
     &lt;!--[if lt IE 9]&gt;
@@ -2823,9 +2842,9 @@ function echo_line($command)
     &lt;![endif]--&gt;
 
     &lt;!-- Le styles --&gt;
-    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.020687283108522414" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/stylesheets/style.css?0.36182026800259304" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.6035707873305625" type="text/css" rel="stylesheet" media="all"&gt;
+    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.09454074468968154" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/stylesheets/style.css?0.9144363386076636" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.9770025693111098" type="text/css" rel="stylesheet" media="all"&gt;
 
  
 
@@ -3006,6 +3025,7 @@ Download: &lt;a href="http://oprod.net/index.php/downloads/category/8-php?downlo
     &lt;meta charset="utf-8"&gt;
     &lt;title&gt;Tumblr&lt;/title&gt;
     &lt;meta name="author" content="Andrei G"&gt;
+   &lt;link href="http://feeds.feedburner.com/oprod/news" rel="alternate" type="application/rss+xml" title="RSS 2.0" /&gt;
 
     &lt;!-- Le HTML5 shim, for IE6-8 support of HTML elements --&gt;
     &lt;!--[if lt IE 9]&gt;
@@ -3013,9 +3033,9 @@ Download: &lt;a href="http://oprod.net/index.php/downloads/category/8-php?downlo
     &lt;![endif]--&gt;
 
     &lt;!-- Le styles --&gt;
-    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.6701787898345337" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/stylesheets/style.css?0.7754845353977571" type="text/css" rel="stylesheet" media="all"&gt;
-&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.20973359661494817" type="text/css" rel="stylesheet" media="all"&gt;
+    &lt;link href="/assets/twitter/stylesheets/bootstrap.min.css?0.15339659950722484" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/stylesheets/style.css?0.36199603829402816" type="text/css" rel="stylesheet" media="all"&gt;
+&lt;link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.6139291062432105" type="text/css" rel="stylesheet" media="all"&gt;
 
  
 

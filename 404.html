@@ -2,20 +2,7 @@
    <head>
       <title>404</title>
    </head>
-<body>
-   <script language="JavaScript" type="text/javascript">
-   var newUrl = "http://oprod.net";
-
-   var log = document.createElement("div");
-   log.id = "newurl";
-   var newPathName = window.location.pathname.replace(RegExp("/index.php/news/.*/[0-9][0-9]-"), "/");
-   newPathName = newPathName.replace(RegExp("/index.php"), "");
-   newUrl += newPathName;
-   if (newPathName == window.location.pathname) {
-      log.innerHTML = '<p align="center"><h1>404: Not found</h1><br />Go back <a href="..">home</a></p>';
-      document.body.appendChild(log);
-   } else
-      window.location.replace(newUrl);
-   </script>
-</body>
+   <body>
+      <p align="center"><h1>404: Not found</h1><br />Go back <a href="..">home</a></p>
+   </body>
 </html>
